@@ -1,0 +1,14 @@
+/*Jumbotron*/
+.jumbotron{
+	height: 930px;
+	background-image: url(../images/womanstretchingbeach.jpg) !important; 
+	background-size: 100%;
+	position: relative;
+	top: -20px;
+}
+
+.buttons-box{
+	position: relative;
+	left: 90px;
+	top: 120px;
+}
