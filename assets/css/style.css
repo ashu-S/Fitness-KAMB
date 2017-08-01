@@ -1,3 +1,23 @@
+/*Nav Bar*/
+.checkbox{
+	color: #fff !important;
+	margin-left: 6px;
+}
+
+.form-group{
+	margin-left: 3px !important;
+}
+
+.logo{
+	position: relative;
+	top: -36px;
+    height: 93px;
+}
+/*Buttons*/
+.btn{
+	margin-left: 6px;
+}
+
 /*Jumbotron*/
 .jumbotron{
 	height: 930px;
