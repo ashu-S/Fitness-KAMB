@@ -59,6 +59,29 @@ body{
 	margin-bottom: 200px;
 }
 
+/*Fitness Panels*/
+.fitness-panel{
+	background-image: url(../images/womansitting.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+
+.fitness-link{
+	color: transparent !important;
+}
+
+.fitness-text{
+	color:  #161616 !important;
+	line-height: 350px;
+	position: relative;
+	top: -40px;
+}
+
+.fitness-text:hover{
+	color: #fffec9 !important;
+}
+
 /*Restaurant Panel*/
 .eateries-panel{
 	background-image: url(../images/meals.jpg);
