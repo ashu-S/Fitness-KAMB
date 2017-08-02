@@ -1,4 +1,14 @@
 /*Nav Bar*/
+
+.navbar{
+	height: 65px;
+}
+
+.container-fluid{
+	position: relative;
+	top: 6.5px;
+}
+
 .checkbox{
 	color: #fff !important;
 	margin-left: 6px;
@@ -10,8 +20,8 @@
 
 .logo{
 	position: relative;
-	top: -36px;
-    height: 93px;
+	top: -47px;
+    height: 113px;
 }
 /*Buttons*/
 .btn{
@@ -47,6 +57,31 @@ body{
 
 .col-md-12{
 	margin-bottom: 200px;
+}
+
+/*Restaurant Panel*/
+.eateries-panel{
+	background-image: url(../images/meals.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	height: 350px;
+}
+
+.eat-link:hover {
+	color: transparent !important;
+}
+
+.eat-text{
+	text-align: center;
+	color: #fff !important;
+	line-height: 320px;
+	position: relative;
+    top: -38px;
+}
+
+.eat-text:hover {
+	color: #fffec9 !important;
 }
 
 /*Sticky Footer*/
