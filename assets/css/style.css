@@ -18,6 +18,11 @@
 	margin-left: 3px !important;
 }
 
+.form-inline{
+  position: relative;
+    top: -5px !important;
+}
+
 .logo{
 	position: relative;
 	top: -47px;
@@ -26,16 +31,32 @@
 /*Buttons*/
 .btn{
 	margin-left: 6px;
-	background-color: #59595b !important;
+	background-color: rgba(0,0,0,.7) !important;
 	border: none !important;
+  padding: 12px !important;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 .btn:hover{
-	background-color: #474749 !important;
+	background-color: rgba(0,0,0,.8) !important;
 }
 
 .btn:focus{
-	background-color: #404042 !important;
+	background-color: rgba(0,0,0,.9) !important;
+}
+
+#buttonLogin{
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  background-color: rgba(105,105,105, .7) !important;
+}
+
+#buttonLogin:hover{
+  background-color: rgba(105,105,105, .8) !important;
+}
+
+#buttonLogin:focus{
+  background-color: rgba(105,105,105, .9) !important;
 }
 
 /*About Jumbotron*/
@@ -216,9 +237,23 @@
 	font-family: 'Nixie One', cursive;
 }
 
+.sign-up-btn{
+  font-size: 16px !important;
+  padding: 6px 18px 7px 18px !important;
+  position: relative;
+  top: -2.5px !important;
+  text-align: center !important;
+}
+
 .contact-text{
 	text-align: center;
 	font-family: 'Nixie One', cursive;
+}
+
+.contact-btn{
+  font-size: 16px !important;
+  padding: 8px 18px 8px 18px !important;
+  text-align: center !important;
 }
 
 .loginBtn {
@@ -226,7 +261,7 @@
   position: relative;
   /* width: 13em;  - apply for fixed size */
   margin: 0.2em;
-  padding: 0 15px 0 46px;
+  padding: 0px 16px 0px 46px;
   border: none;
   text-align: left;
   line-height: 34px;
@@ -294,7 +329,7 @@ footer{
 	background-color: #161616;
 	text-align: center;
 	line-height: 100px;
-	border-top: 7px solid grey;
+	border-top: 7px solid #39707a;
 }
 
 .footer-text{
