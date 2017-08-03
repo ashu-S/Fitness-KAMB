@@ -26,6 +26,7 @@
 
 <body>
 <!--Navigation Bar-->
+	<a name="return-home">
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,7 +49,7 @@
 	        <li><a href="fitnesspage.html">Fitness Centres</a></li>
 	        <li><a href="#">Healthy Eats</a></li>
 	        <li><a href="#">Upcoming Events</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="#signup-contact-target">Contact</a></li>
 	      </ul>
 	      	<form class="navbar-form navbar-right form-inline login-form">
 			  <div class="form-group">
@@ -69,6 +70,7 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav> <!--End Nav-->
+	</a>
 
 <!--Jumbotron: About Fitness KAMB -->
 	<div class="jumbotron about-jumbotron">
@@ -156,7 +158,8 @@
 			</div>
 		</section> <!--End Upcoming Events Section-->
 
-		<section class="signup-contact-section">
+		<a name="signup-contact-target">
+		<section class="signup-contact-section" id="sign-up-contact">
 			<div class="container">
 				<div class="row">
 					<!--Contact Div-->
@@ -188,13 +191,13 @@
 						<form>
 
 						  <div class="form-group">
-						   	<label for="inputName">Username</label>
-						    <input type="text" class="form-control" id="inputName" placeholder="Username">
+						   	<label for="inputUsername">Username</label>
+						    <input type="text" class="form-control" id="inputUsername" placeholder="Username">
 						  </div>
 
 						  <div class="form-group">
 						     <label for="inputAccountEmail">Email</label>
-						   	 <input type="text" class="form-control" id="inputAccountEmail" placeholder="example@email.com">
+						   	 <input type="email" class="form-control" id="inputAccountEmail" placeholder="example@email.com">
 						  </div>
 
 						  <div class="form-group">
@@ -213,7 +216,7 @@
 					</div> <!--End signup col -->
 				</div> <!--End Row-->
 			</div> <!--End Containter-->
-		</section> <!--End sign up and contact form-->
+		</section></a> <!--End sign up and contact form-->
 		
 	</div> <!--End Body Webpage-->
 
