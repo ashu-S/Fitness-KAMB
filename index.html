@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="icon" type="image/png" href="assets/images/fitnesskamb.png"/>
 	<link rel="SHORTCUT ICON" href="assets/images/fitnesskamb.png"/>
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Forum|Josefin+Sans|Nixie+One|Poiret+One|Proza+Libre|Questrial|Quicksand" rel="stylesheet">
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!--JQuery Library-->
@@ -40,10 +42,10 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="navbar-collapse">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Restaurants</a></li>
 	        <li><a href="#">Fitness Centres</a></li>
+	        <li><a href="#">Healthy Eats</a></li>
 	        <li><a href="#">Upcoming Events</a></li>
+	        <li><a href="#">Contact</a></li>
 	      </ul>
 	      	<form class="navbar-form navbar-right form-inline" id="login-form">
 			  <div class="form-group">
@@ -66,10 +68,20 @@
 	</nav> <!--End Nav-->
 
 <!--Jumbotron: About Fitness KAMB -->
+<!--Slideshow-->
 	<div class="jumbotron about-jumbotron">
+		<!--OptionalSlideShow
+
+		<img class="mySlides fade" src="assets/images/womanstretchingbeach.jpg" style="width: 100%">
+	  	<img class="mySlides fade" src="assets/images/womansitting.jpg" style="width: 100%">
+	  	<img class="mySlides fade" src="assets/images/proteinshake.jpg" style="width: 100%">
+	  	<img class="mySlides fade" src="assets/images/aerobicspic.jpg" style="width: 100%">
+		-->
 	  <div class="container">
-	    <h1>Catchy About Me Here</h1>
-	    <h3>Contains actual description of website</h3>
+	  	<div class="about-text">
+	  		<h1>Begin the Journey to a Healthier You</h1>
+	    	<h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB will allows you to meet your fitness aspirations and goals. </h3>
+	  	</div>
 	    <div class="buttons-box">
 	    	<button type="button" class="btn btn-primary btn-lg">
 	    		Generate Goals
@@ -79,8 +91,8 @@
 		    	Create an Account
 		    	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 	    	</button>
-	    </div>
-	  </div>
+	    </div> <!--End Buttons Box end-->
+	  </div> <!--Container End -->
 	</div>
 
 <!--Webpage Body-->
@@ -89,10 +101,12 @@
 		<section class="fitness-section">
 			<div class="jumbotron fitness-jumbotron">
 				<div class="container">
-					<p class="fitness-text">
-						Something about exercising in Houston
-					</p>
-					<button type="button" class="btn btn-primary btn-lg" id="searchFit">Search for Fitness Centers</button>
+					<aside class="fitness-box">
+						<p class="fitness-text">
+						The journey of a thousand miles begins with a single step. Get started with a treadmill by finding a gym near you.
+						</p>
+						<button type="button" class="btn btn-primary btn-lg searchFit">Search for Fitness Centers</button>
+					</aside>
 				</div>
 			</div>
 		</section> <!--End Fitness Section-->
@@ -109,10 +123,12 @@
 		<section class="eateries-section">
 			<div class="jumbotron eateries-jumbotron">
 				<div class="container">
-					<p class="eateries-text">
-						Something about eating healthy in Houston.
-					</p>
-					<button type="button" class="btn btn-primary btn-lg" id="searchEat">Search for Restaurants</button>
+					<aside class="eateries-box">
+						<p class="eateries-text">
+							Want to spend a night out with friends? There are plenty of healthy options for all tastes. Don't forget to add some kale.
+						</p>
+						<button type="button" class="btn btn-primary btn-lg searchEat">Search for Restaurants</button>
+					</aside>
 				</div>
 			</div>
 		</section> <!--End restaurant section-->
@@ -129,10 +145,12 @@
 		<section class="events-section">
 			<div class="jumbotron events-jumbotron">
 				<div class="container">
-					<p class="events-text">
-						Something about community and fitness
-					</p>
-					<button type="button" class="btn btn-primary btn-lg" id="searchEvents">Search for Upcoming Events</button>
+					<aside class="events-box">
+						<p class="events-text">
+							You aren't alone! Join a fitness community around you and build lasting relationships. Receiving and providing support is as important to your health as diet and exercise! Now go have some fun!
+						</p>
+						<button type="button" class="btn btn-primary btn-lg searchEvents">Search for Upcoming Events</button>
+					</aside>
 				</div>
 			</div>
 		</section> <!--End Upcoming Events Section-->
@@ -181,7 +199,7 @@
 						  </div>
 						  <div class="form-group">
 						    <div class="col-sm-offset-2 col-sm-10">
-							    <button type="submit" class="btn btn-default" class="create-account">Sign Up Now</button>
+							    <button type="submit" class="btn btn-primary" class="create-account">Sign Up Now</button>
 							    <button class="loginBtn loginBtn--google">Login with Google</button>
 						    </div>
 						  </div>

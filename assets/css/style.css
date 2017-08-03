@@ -26,11 +26,21 @@
 /*Buttons*/
 .btn{
 	margin-left: 6px;
+	background-color: #59595b !important;
+	border: none !important;
+}
+
+.btn:hover{
+	background-color: #474749 !important;
+}
+
+.btn:focus{
+	background-color: #404042 !important;
 }
 
 /*About Jumbotron*/
 .about-jumbotron{
-	height: 930px;
+	height: 910px;
 	background-image: url(../images/womanstretchingbeach.jpg) !important; 
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -44,6 +54,35 @@
 	top: 120px;
 }
 
+.about-text{
+	width: 57%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*.mySlides {
+    display: none;
+    position: relative;
+    top: -48px;
+}*/
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
+
 /*Fitness Jumbotron*/
 
 .fitness-jumbotron{
@@ -56,19 +95,20 @@
     background-attachment: fixed;
 }
 
-.fitness-text{
-	color: #fff !important;
-	float: right;
+.fitness-box{
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+    float: right;
     position: relative;
-    top: 124px;
-    left: -51px;
+    left: 13.5%;
+    top: 245px;
+    border-radius: 10px;
 }
 
-#searchFit{
-	float: right;
-    position: relative;
-    left: 250px;
-    top: 253px;
+.searchFit{
+	margin-top: 15px;
 }
 
 /*Filler Jumbotron*/
@@ -93,6 +133,22 @@
     background-attachment: fixed;
 }
 
+.eateries-box{
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    left: -13.5%;
+    top: 235px;
+}
+
+.searchEat{
+	margin-top: 15px;
+}
+
 /*Second Filler Jumbotron*/
 .second-filler-jumbotron{
 	position: relative;
@@ -114,6 +170,24 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.events-box{
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+    float: right;
+    position: relative;
+    left: 13.5%;
+    top: 245px;
+    border-radius: 10px;
+}
+
+.searchEvent{
+	margin-top: 15px;
+}
+
+
 
 /*Contact and Sign Up Page Section*/
 
@@ -139,10 +213,12 @@
 
 .signup-text{
 	text-align: center;
+	font-family: 'Nixie One', cursive;
 }
 
 .contact-text{
 	text-align: center;
+	font-family: 'Nixie One', cursive;
 }
 
 .loginBtn {
