@@ -133,9 +133,15 @@
 
 /*Fitness Page Jumbotron*/
 .fitnesspage-jumbotron{
-  height: 450px;
+  height: 480px;
   position: relative;
     top: -20px;
+}
+
+.gyms-text{
+  font-family: 'Questrial', sans-serif;
+  position: relative;
+  left: -30px;
 }
 
 #searchGym{
@@ -147,9 +153,15 @@
   font-size: 15px;
 }
 
+.search-gyms{
+  position: relative;
+    left: -35px;
+    top: 7px;
+}
+
 .search-gyms-box{
   position: relative;
-  top: 190px;
+  top: 80px;
   /*left: 30px;*/
   font-family: 'Quicksand', sans-serif;
   font-size: 19px;
@@ -163,32 +175,84 @@
 }
 
 .gym-image{
-  width: 175%;
+  width: 187%;
   position: relative;
     top: -48px;
-    left: -30px;
+    left: -43px;
 }
+
+/*Fitness Page Bottom Half*/
+.marquee{
+  position: relative;
+    top: -40px;
+    left: -50px;
+  width: 600px;
+  height: 450px;
+  margin-bottom: 140px;
+  margin-top: 40px;
+  font-family: 'Nixie One', sans-serif;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.gym-rec{
+  font-size: 20px !important;
+  color: #fff;
+  margin-bottom: 10px;
+  position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+.gym-rec:hover{
+  color: gold;
+}
+
+.map-container{
+  height: 480px;
+  width: 685px;
+  position: relative;
+    top: -36px;
+    left: -10px;
+  font-family: 'Nixie One', cursive !important;
+  color: #fff;
+  text-align: center;
+}
+
+/*Filler Jumbotron Fitness Page*/
+.fitness-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/weightsfree.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 /*Filler Jumbotron*/
 .filler-jumbotron{
 	position: relative;
     top: -80px;
-    height: 220px;
-    background-image: url(../images/weights.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  height: 220px;
+  background-image: url(../images/weights.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*Restaurant Jumbotron*/
 .eateries-jumbotron{
 	height: 600px;
-    position: relative;
+  position: relative;
     top: -110px;
-    background-image: url(../images/meals.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(../images/meals.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .eateries-box{
@@ -196,9 +260,9 @@
 	text-align: center;
 	color: #fff;
 	padding: 30px;
-    border-radius: 10px;
-    float: left;
-    position: relative;
+  border-radius: 10px;
+  float: left;
+  position: relative;
     left: -13.5%;
     top: 235px;
 }
@@ -211,22 +275,22 @@
 .second-filler-jumbotron{
 	position: relative;
     top: -140px;
-    height: 220px;
-    background-image: url(../images/foodassortment.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  height: 220px;
+  background-image: url(../images/foodassortment.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*Events Jumbotron*/
 .events-jumbotron{
 	height: 600px;
-    position: relative;
+  position: relative;
     top: -170px;
-    background-image: url(../images/threewomandoingyoga.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(../images/threewomandoingyoga.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .events-box{
@@ -234,11 +298,11 @@
 	text-align: center;
 	color: #fff;
 	padding: 30px;
-    float: right;
-    position: relative;
+  float: right;
+  position: relative;
     left: 13.5%;
     top: 245px;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .searchEvent{
