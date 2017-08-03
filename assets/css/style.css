@@ -18,7 +18,7 @@
 	margin-left: 3px !important;
 }
 
-.form-inline{
+.login-form{
   position: relative;
     top: -5px !important;
 }
@@ -28,7 +28,7 @@
 	top: -47px;
     height: 113px;
 }
-/*Buttons*/
+/*All Buttons*/
 .btn{
 	margin-left: 6px;
 	background-color: rgba(0,0,0,.7) !important;
@@ -132,6 +132,17 @@
 	margin-top: 15px;
 }
 
+/*Fitness Page Jumbotron*/
+.fitnesspage-jumbotron{
+  height: 450px;
+  position: relative;
+    top: -20px;
+}
+#searchGym{
+  margin-top: 39px;
+  padding: 6px 18px 6px 18px !important;
+}
+
 /*Filler Jumbotron*/
 .filler-jumbotron{
 	position: relative;
@@ -220,7 +231,7 @@
 	color: #e3ebed;
 }
 
-.col-md-6{
+.contact-signup{
 	margin-top: 30px;
 	width: 550px !important;
 }
