@@ -1,26 +1,35 @@
 /*Nav Bar*/
 .navbar{
-	height: 65px;
+	height: 70px;
 }
 
 .container-fluid{
 	position: relative;
-	top: 6.5px;
+	top: 8px;
 }
 
-.checkbox{
+/*.checkbox{
 	color: #fff !important;
 	margin-left: 6px;
-}
+}*/
 
 .form-group{
 	margin-left: 3px !important;
+  position: relative;
+  top: -4px;
 }
 
-.login-form{
+.navbar-form{
+  position: relative;
+  left: -5px;
+}
+
+/*.login-form{
   position: relative;
     top: -5px !important;
-}
+  width: 480px !important;
+  padding: 0 !important;
+}*/
 
 .logo{
 	position: relative;
@@ -44,9 +53,34 @@
 	background-color: rgba(0,0,0,.9) !important;
 }
 
+#inputSearch{
+  height: 41px;
+}
+
+#buttonSearch{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 11px !important;
+  padding-bottom: 10px !important;
+  margin-left: -4px;
+  position: relative;
+  top: -4px;
+  background-color: rgba(105,105,105, .7) !important;
+}
+
+#buttonSearch:hover{
+  background-color: rgba(105,105,105, .8) !important;
+}
+
+#buttonSearch:focus{
+  background-color: rgba(105,105,105, .9) !important;
+}
+
 #buttonLogin{
   padding-left: 18px !important;
   padding-right: 18px !important;
+  position: relative;
+  top: -4px;
   background-color: rgba(105,105,105, .7) !important;
 }
 
@@ -76,11 +110,12 @@
   padding-top: 0px !important;
   padding-bottom : 0px !important;
 }
-.carousel{
+/*.carousel{
     position: relative;
     top: -26px;
     margin-bottom: -26px;
-}
+}*/
+
 .buttons-box{
 	position: relative;
 	left: 80px;
