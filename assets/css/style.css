@@ -218,6 +218,11 @@
   padding: 32px !important;
 }
 
+.top-space{
+  position: relative !important;
+    top: -68px !important;
+}
+
 .gyms-text{
   font-family: 'Questrial', sans-serif;
   position: relative;
@@ -297,15 +302,8 @@
 .rec-textbox{
   position: relative;
   top: -22px;
+  margin-bottom: 76px !important;
 }
-
-.fit-title{
-  text-align: center;
-  font-family: 'Nixie One', sans-serif;
-  color: #fff;
-  margin-bottom: 50px;
-}
-
 /*.annimate{
   position: relative;
     animation-name: example;
