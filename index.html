@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Fitness KAMB</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="icon" type="image/png" href="assets/images/fitnesskamb.png"/>
-	<link rel="SHORTCUT ICON" href="assets/images/fitnesskamb.png"/>
-	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Forum|Josefin+Sans|Nixie+One|Poiret+One|Proza+Libre|Questrial|Quicksand" rel="stylesheet">
-	<!--Bootstrap CSS-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<!--JQuery Library-->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!--Moment JS file-->
-	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-	<!--Firebase-->
-	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Forum|Josefin+Sans|Nixie+One|Poiret+One|Proza+Libre|Questrial|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -70,31 +59,115 @@
 	  </div><!-- /.container-fluid -->
 	</nav> <!--End Nav-->
 
-<!--Jumbotron: About Fitness KAMB -->
-	<div class="jumbotron about-jumbotron">
-		<!--OptionalSlideShow
-		<img class="mySlides fade" src="assets/images/womanstretchingbeach.jpg" style="width: 100%">
-	  	<img class="mySlides fade" src="assets/images/womansitting.jpg" style="width: 100%">
-	  	<img class="mySlides fade" src="assets/images/proteinshake.jpg" style="width: 100%">
-	  	<img class="mySlides fade" src="assets/images/aerobicspic.jpg" style="width: 100%">
-		-->
-	  <div class="container">
-	  	<div class="about-text">
-	  		<h1>Begin the Journey to a Healthier You</h1>
-	    	<h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB allows you to meet your fitness aspirations and goals. </h3>
-	  	</div>
-	    <div class="buttons-box">
-	    	<button type="button" class="btn btn-primary btn-lg">
-	    		Generate Goals
-	    		<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
-	    	</button>
-	    	<button type="button" class="btn btn-primary btn-lg create-account">
-		    	Create an Account
-		    	<i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
-	    	</button>
-	    </div> <!--End Buttons Box end-->
-	  </div> <!--Container End -->
-	</div>
+<div class="jumbotron carousel-jumbotron">
+  <!-- <h2>Carousel Example</h2>   -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="carousel-caption">
+<!-- Division for text area -->
+        <div class="about-text" style="width: 68% !important;margin-left: -120px;margin-bottom: 150px;font-family: 'Quicksand', sans-serif;">
+        <h1>Begin the Journey to a Healthier You</h1>
+        <h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB allows you to meet your fitness aspirations and goals. </h3>
+        </div>
+        <div class="buttons-box" style="height: 20%;">
+        <button type="button" class="btn btn-primary btn-lg">
+          Generate Goals
+          <i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg create-account">
+          Create an Account
+          <i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+      </div> <!--End Buttons Box end-->
+     </div> <!--closing caption-->
+       <img class=" img-responsive" src="assets/images/peoplejogging.jpg" alt="People Jogging" style="width: 100%;height: 150%;" > 
+   </div>  <!--closing div for active items-->
+      <div class="item">
+         <div class="carousel-caption">
+<!-- Division for text area -->
+          <div class="about-text" style="width: 68% !important;margin-left: -120px;margin-bottom: 150px;font-family: 'Quicksand', sans-serif;">
+             <h1>Eat the best, leave the rest</h1>
+              <h3>Fitness KAMB is a digital resource that can guide you with the Dietry plans and we have Resturant Page for the Eatries nearby.</h3>
+          </div>
+        <div class="buttons-box" style="height: 20%;">
+           <button type="button" class="btn btn-primary btn-lg">
+              Generate Goals
+          <i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
+           </button>
+           <button type="button" class="btn btn-primary btn-lg create-account">
+             Create an Account
+         <i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
+          </button>
+        </div> <!--End Buttons Box end-->
+      </div> <!--closing caption-->
+        <img class="img-responsive" src="assets/images/womanrunning.jpg"  alt="Women Sitting" style="width: 100%;"
+        >
+    </div> <!--closing Item-->
+    
+      <div class="item">
+        <div class="carousel-caption">
+<!-- Division for text area -->
+        <div class="about-text" style="width: 68% !important;margin-left: -120px;margin-bottom: 150px;font-family: 'Quicksand', sans-serif;">
+        <h1>Begin the Journey to a Healthier You</h1>
+        <h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB allows you to meet your fitness aspirations and goals. </h3>
+        </div>
+        <div class="buttons-box" style="height: 20%;">
+        <button type="button" class="btn btn-primary btn-lg">
+          Generate Goals
+          <i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg create-account">
+          Create an Account
+          <i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+      </div> <!--End Buttons Box end-->
+     </div> <!--closing caption-->
+        <img class="img-responsive" src="assets/images/thearms.jpg" alt="upcoming events" style="width: 100%;">
+    </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+<!-- Division for text area -->
+        <div class="about-text" style="width: 68% !important;margin-left: -120px;margin-bottom: 150px;font-family: 'Quicksand', sans-serif;">
+        <h1>Begin the Journey to a Healthier You</h1>
+        <h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB allows you to meet your fitness aspirations and goals. </h3>
+        </div>
+        <div class="buttons-box" style="height: 20%;">
+        <button type="button" class="btn btn-primary btn-lg">
+          Generate Goals
+          <i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg create-account">
+          Create an Account
+          <i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
+        </button>
+      </div> <!--End Buttons Box end-->
+     </div> <!--closing caption-->
+        <img class="img-responsive" src="assets/images/womanrunningmountain.jpg" alt="womanrunningmountain" style="width: 100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 
 <!--Webpage Body-->
 	<div class="body-webpage">
