@@ -94,6 +94,7 @@
 
 
 /*About Jumbotron*/
+
 /*.about-jumbotron{
 	height: 910px;
 	background-image: url(../images/womanstretchingbeach.jpg) !important; 
@@ -118,14 +119,28 @@
 
 .buttons-box{
 	position: relative;
-	left: 80px;
-	top: 120px;
+	left: -185px;
+	top: 100px;
+}
+
+.carousel-caption{
+  position: relative;
+  top: 34px;
+  left: 68px !important;
 }
 
 .about-text{
-	width: 70%;
+  position: relative;
+  left: 47px;
+	width: 61% !important;
 	font-family: 'Quicksand', sans-serif;
+  color: #161616;
+  text-align: left !important;
 
+}
+
+.carousel-indicators{
+  margin-bottom: 60px;
 }
 
 /*.mySlides {
@@ -169,11 +184,11 @@
 	text-align: center;
 	color: #fff;
 	padding: 30px;
-    float: right;
-    position: relative;
+  float: right;
+  position: relative;
     left: 13.5%;
     top: 245px;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .searchFit{
