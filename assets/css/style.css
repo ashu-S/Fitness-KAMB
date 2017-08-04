@@ -91,7 +91,13 @@
 #buttonLogin:focus{
   background-color: rgba(105,105,105, .9) !important;
 }
+.buttonDiet{
+  width: 120px;
+  height: 120px;
+      white-space: normal ! important;
 
+  /*color: yellow;*/
+}
 
 /*About Jumbotron*/
 
@@ -217,6 +223,37 @@
   font-size: 15px;
 }
 
+.jumbotron-division{
+  /*border-style: solid;  */
+  /*border-width: 2px;*/
+  /*border-color: yellow;*/
+  position: relative;
+  top: -30px;
+}
+
+/*for Recource button page*/
+.row{
+  padding: 1px;
+}
+.columnSize{
+ /* padding-right:0 ! important;
+    padding-left:0 ! important;
+     padding: 0 !important;
+   margin: 0 !important*/
+   width: 21% ! important;
+}
+/*.division1{
+  border-style: solid;
+  border-width: 1px;
+}*/
+
+.buttonClass{
+    float:left;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #1E1E1E;
+}
 .search-gyms{
   position: relative;
     left: -35px;
@@ -355,9 +392,30 @@ a{
     left: -13.5%;
     top: 235px;
 }
-
+/*Jumbotron for resource page*/
+.resourcespage-jumbotron{
+background-image: url("../images/aerobicspic.jpg");
+position: relative;
+top: -20px;
+bottom: -10px;
+padding-top: 48px ! important;
+    padding-bottom: 65px ! important;
+}
+/*P tag for Resource page*/
+.resourcespagePara{
+  font-family: 'Roboto Slab', serif;
+  /*text-align: center;*/
+  margin-left: 20px;
+}
 .searchEat{
 	margin-top: 15px;
+}
+#h4text{
+      position: relative;
+    left: 2px;
+    top: 19px;
+    font-size: 15px;
+    float: left;
 }
 
 /*Second Filler Jumbotron*/
@@ -381,6 +439,7 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 .events-box{
 	background-color: rgba(0,0,0,0.4);
