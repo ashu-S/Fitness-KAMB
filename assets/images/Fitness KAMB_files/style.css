@@ -225,7 +225,7 @@
 }
 
 #searchGym{
-  margin-top: 38px;
+  margin-top: 46px;
   padding: 29px 28px 30px 28px !important;
   position: relative;
     top: 1px;
@@ -342,7 +342,8 @@ a{
 .map-container{
   height: 660px;
   position: relative;
-    top: -34px;
+    top: -37px;
+  background-color: blue;
   margin-bottom: 72px
 }
 
