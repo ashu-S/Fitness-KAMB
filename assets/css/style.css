@@ -180,6 +180,13 @@
   font-family: 'Quicksand', sans-serif;
   font-size: 19px;
 }
+.search-resturant-box{
+   position: relative;
+  top: 80px;
+  /*left: 30px;*/
+  font-family: 'Quicksand', sans-serif;
+  font-size: 19px;
+}
 
 #inputAddress{
     width: 370px;
@@ -194,7 +201,12 @@
     top: -48px;
     left: -43px;
 }
-
+.food-image{
+   width: 187%;
+  position: relative;
+    top: -48px;
+    left: -43px;
+}
 /*Fitness Page Bottom Half*/
 .marquee{
   position: relative;
@@ -205,8 +217,21 @@
   margin-bottom: 140px;
   margin-top: 40px;
   font-family: 'Nixie One', sans-serif;
+
 }
 
+/*.annimate{
+  position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    left: 0px;
+    top: 20px;
+}*/
+/* Standard syntax */
+/*@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}*/
 a{
   text-decoration: none !important;
 }
