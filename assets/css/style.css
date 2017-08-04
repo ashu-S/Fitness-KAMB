@@ -69,13 +69,12 @@
 	top: -20px;
 }*/
 .carousel-jumbotron{
-   position: relative;
+  position: relative;
     top: -20px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #eee;
-    padding-top: 0px !important;
-    padding-bottom : 0px !important;
+  height: 910px;
+  margin-bottom: 30px;
+  padding-top: 0px !important;
+  padding-bottom : 0px !important;
 }
 .carousel{
   padding-top: 0px !important;
@@ -87,8 +86,9 @@
 }
 
 .about-text{
-	width: 57%;
+	width: 70%;
 	font-family: 'Quicksand', sans-serif;
+
 }
 
 /*.mySlides {
