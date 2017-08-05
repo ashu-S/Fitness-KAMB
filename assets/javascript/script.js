@@ -12,3 +12,14 @@
 //     slides[slideIndex-1].style.display = "block"; 
 //     setTimeout(showSlides, 5000); // Change image every 5seconds
 // }
+
+$(document).ready(function(){
+	
+	event.preventDefault();
+
+	$('.createAccountButton').on("click", function() {
+		event.preventDefault();
+		$('#myModal').modal();
+	})
+	
+});
