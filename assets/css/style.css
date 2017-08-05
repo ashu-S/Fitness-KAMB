@@ -30,7 +30,15 @@
   width: 480px !important;
   padding: 0 !important;
 }*/
+.fa-user-circle:before {
+    /*content: "\f2bd";*/
+    font-size: 30px ! important;
+    color: white ! important;
+  }
 
+
+
+  
 .logo{
 	position: relative;
 	top: -47px;
@@ -244,7 +252,7 @@
   font-family: 'Questrial', sans-serif;
   position: relative;
   left: -30px;
-  
+
 }
 #searchGym{
   margin-top: 38px;
@@ -276,11 +284,16 @@
   
     /*padding: 1px;*/
 }
-/*.division1{
-  border-style: solid;
-  border-width: 1px;
-}*/
+/*@media screen and (min-width:992px)
 
+{
+.col-md-3 {
+    width: 25%;
+     padding: 0px; 
+    margin-left: 21px !important;
+    position: relative;
+    /*margin-left: 21px;*/
+  
 .buttonClass{
     float:left;
     width: 30%;
@@ -406,7 +419,16 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+/*Filler Jumbotron Resturant Page*/
+.resturant-filler{
+  height: 210px;
+  position: relative;
+  top: -50px;
+  background-image: url(../images/food-image.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /*Filler Jumbotron Fitness Page*/
 .fitness-filler{
   height: 210px;
@@ -471,6 +493,8 @@ background-size: 100%;
 .searchEat{
   margin-top: 15px;
 }
+/*Ketogenic,Raw Food,South Beach,Natural Awakeing,Women's Health, Weight Watcher,
+The good life,Interval training*/
 #h4text{
       position: relative;
     left: 2px;
@@ -478,7 +502,30 @@ background-size: 100%;
     font-size: 15px;
     float: left;
 }
-
+/*For Atkiens,Zone,Vegan,Spry living,Walking*/
+#h4textBig{
+  position: relative;
+    left: 13px;
+    top: 19px;
+    font-size: 15px;
+    float: left;
+}
+/*For Shape Text,Squats,Lounge*/
+#h4textBig1{
+  position: relative;
+    left: 21px;
+    top: 19px;
+    font-size: 15px;
+    float: left;
+}
+/*For the Yoga text*/
+#h4textBig2{
+  position: relative;
+    left: 27px;
+    top: 19px;
+    font-size: 15px;
+    float: left;
+}
 .buttonClass{
     float:left;
     width: 30%;
