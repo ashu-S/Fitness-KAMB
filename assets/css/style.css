@@ -203,9 +203,12 @@
 
 /*Fitness Page Jumbotron*/
 .fitnesspage-jumbotron{
-  height: 480px;
   position: relative;
     top: -20px;
+  height: 570px;
+  background-image: url(../images/rippedlady.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .space-jumbotron{
@@ -355,6 +358,17 @@ a{
   background-attachment: fixed;
 }
 
+/*Filler Jumbotron Fitness Page*/
+.fitness-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/weightsfree.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /*Resources Page*/
 
 .jumbotron-division{
@@ -472,6 +486,16 @@ padding-top: 48px ! important;
   background-attachment: fixed;
 }
 
+.events-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/peoplejogging.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 .events-box{
 	background-color: rgba(0,0,0,0.4);
@@ -485,11 +509,63 @@ padding-top: 48px ! important;
   border-radius: 10px;
 }
 
+.events-image-col{
+  position: relative;
+    left: 40px;
+}
+
 .searchEvent{
 	margin-top: 15px;
 }
 
+.an-nyw-control form input.an-nyw-default{
+  width: 78px !important;
+}
 
+/*Upcoming Events Page*/
+.expand a, .collapse a, .user-register-button{
+  background: none !important;
+}
+
+.events-jumbotron-page{
+  position: relative;
+    top: -20px;
+  height: 570px;
+  background-image: url(../images/fitwomenlaughing.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#inputAddressEvents{
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 17px;
+}
+
+.search-events{
+  position: relative;
+    left: -35px;
+    top: 7px;
+}
+
+.events-top-space{
+  position: relative;
+  top: -90px;
+}
+
+/*.events-widget{
+  margin-left: 118px;
+  position: relative;
+    top: -487px;
+}*/
+
+/*.events-image{
+  width: 157.6%;
+  position: relative;
+    top: -49px;
+    left: -43px;
+}*/
 
 /*Contact and Sign Up Page Section*/
 
