@@ -591,16 +591,6 @@ The good life,Interval training*/
   background-attachment: fixed;
 }
 
-.events-filler{
-  height: 210px;
-  position: relative;
-    top: -50px;
-  background-image: url(../images/peoplejogging.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 
 .events-box{
 	background-color: rgba(0,0,0,0.4);
@@ -641,6 +631,16 @@ The good life,Interval training*/
   background-repeat: no-repeat;
 }
 
+.events-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/werk.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #inputAddressEvents{
   width: 370px;
   padding-top: 40px;
@@ -657,6 +657,18 @@ The good life,Interval training*/
 .events-top-space{
   position: relative;
   top: -90px;
+}
+
+.an-nyw-footer {
+    background-color: #545456;
+    height: 49px !important;
+    position: relative;
+    margin: 0px;
+}
+
+.an-nyw-go {
+  position: relative !important;
+  top: -5px !important;
 }
 
 /*.events-widget{
