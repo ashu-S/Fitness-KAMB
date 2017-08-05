@@ -62,6 +62,57 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav> <!--End Nav-->
+
+	<div class="jumbotron events-jumbotron-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 search-events">
+					<aside class="gyms-text">
+						<h2>Keep it Social Without the Media</h2>
+						<p>Find events in your area and socialise with other people who have similar interests while improving your wellness.</p>
+					</aside>
+					<form class="form-inline search-gyms-box">
+						<div class="form-group address-box">
+							<label for="inputAddressEvents" style="margin-bottom: 20px; color: #6b6a67;">ENTER YOUR ADDRESS</label>
+							<br>
+							<input type="text" class="form-control" id="inputAddressEvents" placeholder="City, State, or Zip Code">
+						</div>
+						<button type="submit" class="btn btn-primary" id="searchGym"><i class="fa fa-search" aria-hidden="true" style="margin-right: 5px"></i>Find Events</button>
+					</form>
+				</div> <!--End First Col-->
+				<div class="col-md-5 events-image-col">
+					<div class="events-widget">
+						<script type="text/javascript" src="http://widgets.active.com/widgets/nearyou/widget-a3.min.js"></script>
+						<script type="text/javascript">
+						  new ActiveNetwork.NearYouWidget({"title":"Things to do Near You","num":"8","keywords":"","activity":"any","showActivitySelector":true,"type":"all","location":"","showLocationSelector":true,"affiliate":"","placement":"","campaign":"150457","width":410,"height":383,"style":{"frame":{"background-color":"#f7f6f6"},"title":{"color":"#ffffff"},"window":{"background-color":"#f7f6f6"},"text":{"color":"#5b5c5c","border-color":"#5b5c5c"},"links":{"color":"#0068a4"},"buttons":{"background-color":"#6b6a67"},"tags":{"background-color":"#eeeeee"}}}).render();
+						</script>
+					</div><!--End Events Widget-->
+				</div><!--End Second Col-->
+			</div><!--End Row-->
+		</div><!--End Container-->
+	</div><!--End Jumbotron-->
+
+	<section class="events-filler-section">
+		<div class="jumbotron events-filler">
+			<div class="container">
+				<p class="events-empty-containter">
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="jumbotron space-jumbotron events-top-space">
+		<div class="container">
+			<h2>LOCATIONS</h2>
+		</div>
+	</div>
+
+	<div class="container-fluid map-fluid">
+		<div class="row map-row">
+			<div class="col-md-12 map-container" id="eventMapContainer">
+			</div>
+		</div>
+	</div>
 	
 <!--Footer-->
 	<footer>

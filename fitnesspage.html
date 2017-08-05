@@ -67,23 +67,20 @@
 	<div class="jumbotron fitnesspage-jumbotron">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 search-gyms">
-					<aside class="gyms-text">
+				<div class="col-md-8 gyms-box">
+					<aside class="gyms-text" style="color: #fff;">
 						<h2>Stay Fit</h2>
 						<p>Search for gyms near you to stay on top of your workout routine or start your new fitness lifestyle.</p>
 					</aside>
 					<form class="form-inline search-gyms-box">
 						<div class="form-group address-box">
-							<label for="inputAddress" style="margin-bottom: 20px">ENTER YOUR ADDRESS</label>
+							<label for="inputAddress" style="margin-bottom: 20px; color: #fff;">ENTER YOUR ADDRESS</label>
 							<br>
-							<input type="text" class="form-control" id="inputAddress" placeholder="Address or Zip Code">
+							<input type="text" class="form-control" id="inputAddress" placeholder="City, State, or Zip Code">
 						</div>
 						<button type="submit" class="btn btn-primary" id="searchGym"><i class="fa fa-search" aria-hidden="true" style="margin-right: 5px"></i>Find Gyms</button>
 					</form>
 				</div> <!--End First Col-->
-				<div class="col-md-5">
-					<img class="gym-image" src="assets/images/rippedlady.jpg">
-				</div><!--End Second Col-->
 			</div> <!--End Row-->
 		</div> <!--End Container-->
 	</div> <!--End Jumbotron-->
@@ -97,36 +94,53 @@
 		</div>
 	</section>
 <!--Rest of the Webpage-->
-	<div class="container">
-		<div class="row fitness-page-container">
-			<section class="webpage-fitness-section">
-				<div class="col-md-6">
-					<div class="marquee">
-						<center>
-							<h2><font color="#ffffff">10 FITNESS CENTRES</font></h2>
-							<a href="http://uptownfitnesshouston.com/" target="_blank"><ul class="gym-rec">Uptown Fitness</ul></a>
-							<a href="http://www.p3crossfit.com/" target="_blank"><ul class="gym-rec">P3 CrossFit</ul></a>
-							<a href="http://www.fitmac.com/" target="_blank"><ul class="gym-rec">Memorial Athletic Club and Aquatic Centre</ul></a>
-							<a href="http://fitnessconnection.com/" target="_blank"><ul class="gym-rec">Fitness Connection</ul></a>
-							<a href="http://www.studiofitness.org/" target="_blank"><ul class="gym-rec">Studio Fitness</ul></a>
-							<a href="https://www.orangetheoryfitness.com/" target="_blank"><ul class="gym-rec">Orangetheory Fitness</ul></a>
-							<a href="https://www.the-g-y-m.com/" target="_blank"><ul class="gym-rec">The GYM</ul></a>
-							<a href="http://washington-gym.com/" target="_blank"><ul class="gym-rec">Washington Gym</ul></a>
-							<a href="http://www.noname.fit/" target="_blank"><ul class="gym-rec">NonameFit Studios</ul></a>
-							<a href="https://www.lifetimefitness.com/life-time-locations/tx-humble-lake-houston.html" target="_blank"><ul class="gym-rec">Lifetime Fitness Lake Houston</ul></a>
-						</center>
-					</div> <!--End Marquee Div-->
-				</div> <!--End Col 1-->
-
-				<div class="col-md-6">
-					<div class="map-container">
-						<h2>Locations</h2>
-						<div id="fit-location"></div>
-					</div>
+	<div class="rec-textbox">
+		<div class="jumbotron space-jumbotron top-space">
+			<div class="container">
+				<h2>10 FITNESS CENTRES</h2>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row fivecolumns">
+				<div class="col-md-2">
+					<a href="http://uptownfitnesshouston.com/" target="_blank"><ul class="gym-rec">Uptown Fitness</ul></a>
+					<a href="http://www.p3crossfit.com/" target="_blank"><ul class="gym-rec">P3 CrossFit</ul></a>
 				</div>
-			</section>
-		</div> <!-- End Row 2-->
-	</div> <!--End Container-->
+				<div class="col-md-2">
+					<a href="http://www.fitmac.com/" target="_blank"><ul class="gym-rec">Memorial Athletic Club and Aquatic Centre</ul></a>
+					<a href="http://fitnessconnection.com/" target="_blank"><ul class="gym-rec">Fitness Connection</ul></a>
+				</div>
+				<div class="col-md-2">
+					<a href="http://www.studiofitness.org/" target="_blank"><ul class="gym-rec">Studio Fitness</ul></a>
+					<a href="https://www.orangetheoryfitness.com/" target="_blank"><ul class="gym-rec">Orangetheory Fitness</ul></a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.the-g-y-m.com/" target="_blank"><ul class="gym-rec">The GYM</ul></a>
+					<a href="http://washington-gym.com/" target="_blank"><ul class="gym-rec">Washington Gym</ul></a>
+				</div>
+				<div class="col-md-2">
+					<a href="http://www.noname.fit/" target="_blank"><ul class="gym-rec">NonameFit Studios</ul></a>
+					<a href="https://www.lifetimefitness.com/life-time-locations/tx-humble-lake-houston.html" target="_blank"><ul class="gym-rec">Lifetime Fitness Lake Houston</ul></a>
+				</div>
+			</div> <!--End Second Row-->
+		</div><!--End Container-->
+	</div> <!--End Rec box-->
+<div class="map-container-large">
+	<div class="jumbotron space-jumbotron">
+		<div class="container">
+			<h2>LOCATIONS</h2>
+		</div>
+	</div>
+
+	<div class="container-fluid map-fluid">
+		<div class="row map-row">
+			<div class="col-md-12 map-container" id="mapContainer">
+			</div>
+		</div>
+	</div>
+</div>
+	
+
 
 <!--Footer-->
 	<footer>

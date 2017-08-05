@@ -203,9 +203,27 @@
 
 /*Fitness Page Jumbotron*/
 .fitnesspage-jumbotron{
-  height: 480px;
   position: relative;
     top: -20px;
+  height: 570px;
+  background-image: url(../images/rippedlady.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.space-jumbotron{
+  background-color: #353638 !important;
+  margin-top: 40px;
+  font-family: 'Nixie One', sans-serif;
+  color: #fff !important;
+  text-align: center;
+  height: 140px !important;
+  padding: 32px !important;
+}
+
+.top-space{
+  position: relative !important;
+    top: -68px !important;
 }
 
 .gyms-text{
@@ -215,7 +233,7 @@
 }
 
 #searchGym{
-  margin-top: 46px;
+  margin-top: 38px;
   padding: 29px 28px 30px 28px !important;
   position: relative;
     top: 1px;
@@ -223,6 +241,7 @@
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 .jumbotron-division{
   /*border-style: solid;  */
   /*border-width: 2px;*/
@@ -255,6 +274,8 @@
     margin:1.66%;
     background-color: #1E1E1E;
 }
+=======
+>>>>>>> c6ea02bc78d35338fd3d497f39969c609b1dcd70
 .search-gyms{
   position: relative;
     left: -35px;
@@ -286,7 +307,7 @@
 .gym-image{
   width: 187%;
   position: relative;
-    top: -48px;
+    top: -49px;
     left: -43px;
 }
 .food-image{
@@ -296,18 +317,31 @@
     left: -43px;
 }
 /*Fitness Page Bottom Half*/
-.marquee{
-  position: relative;
-    top: -40px;
-    left: -50px;
-  width: 600px;
-  height: 450px;
-  margin-bottom: 140px;
-  margin-top: 40px;
-  font-family: 'Nixie One', sans-serif;
 
+@media (min-width: 768px){
+    .fivecolumns .col-md-2 {
+        width: 20%;
+        *width: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .fivecolumns .col-md-2 {
+        width: 20%;
+        *width: 20%;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .fivecolumns .col-md-2 {
+        width: 20%;
+        *width: 20%;
+    }
 }
 
+.rec-textbox{
+  position: relative;
+  top: -22px;
+  margin-bottom: 76px !important;
+}
 /*.annimate{
   position: relative;
     animation-name: example;
@@ -325,27 +359,27 @@ a{
 }
 
 .gym-rec{
-  font-size: 20px !important;
+  font-size: 19px !important;
+  font-family: 'Nixie One', sans-serif;
   color: #fff;
   margin-bottom: 10px;
-  position: relative;
-    top: 20px;
-    left: -10px;
+  text-align: center;;
 }
 
 .gym-rec:hover{
   color: gold;
 }
 
-.map-container{
-  height: 480px;
-  width: 685px;
+.map-fluid{
   position: relative;
-    top: -36px;
-    left: -10px;
-  font-family: 'Nixie One', cursive !important;
-  color: #fff;
-  text-align: center;
+  top: 0 !important;
+}
+
+.map-container{
+  height: 660px;
+  position: relative;
+    top: -34px;
+  margin-bottom: 72px
 }
 
 /*Filler Jumbotron Fitness Page*/
@@ -357,6 +391,77 @@ a{
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/*Filler Jumbotron Fitness Page*/
+.fitness-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/weightsfree.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Resources Page*/
+
+.jumbotron-division{
+  /*border-style: solid;  */
+  /*border-width: 2px;*/
+  /*border-color: yellow;*/
+  position: relative;
+  top: -30px;
+}
+
+.row{
+  padding: 1px;
+}
+.columnSize{
+ /* padding-right:0 ! important;
+    padding-left:0 ! important;
+     padding: 0 !important;
+   margin: 0 !important*/
+   width: 21% ! important;
+}
+/*.division1{
+  border-style: solid;
+  border-width: 1px;
+}*/
+
+/*Jumbotron for resource page*/
+
+.resourcespage-jumbotron{
+background-image: url("../images/aerobicspic.jpg");
+position: relative;
+top: -20px;
+bottom: -10px;
+padding-top: 48px ! important;
+    padding-bottom: 65px ! important;
+}
+/*P tag for Resource page*/
+.resourcespagePara{
+  font-family: 'Roboto Slab', serif;
+  /*text-align: center;*/
+  margin-left: 20px;
+}
+.searchEat{
+  margin-top: 15px;
+}
+#h4text{
+      position: relative;
+    left: 2px;
+    top: 19px;
+    font-size: 15px;
+    float: left;
+}
+
+.buttonClass{
+    float:left;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #1E1E1E;
 }
 
 
@@ -393,31 +498,6 @@ a{
     left: -13.5%;
     top: 235px;
 }
-/*Jumbotron for resource page*/
-.resourcespage-jumbotron{
-background-image: url("../images/aerobicspic.jpg");
-position: relative;
-top: -20px;
-bottom: -10px;
-padding-top: 48px ! important;
-    padding-bottom: 65px ! important;
-}
-/*P tag for Resource page*/
-.resourcespagePara{
-  font-family: 'Roboto Slab', serif;
-  /*text-align: center;*/
-  margin-left: 20px;
-}
-.searchEat{
-	margin-top: 15px;
-}
-#h4text{
-      position: relative;
-    left: 2px;
-    top: 19px;
-    font-size: 15px;
-    float: left;
-}
 
 /*Second Filler Jumbotron*/
 .second-filler-jumbotron{
@@ -441,6 +521,16 @@ padding-top: 48px ! important;
   background-attachment: fixed;
 }
 
+.events-filler{
+  height: 210px;
+  position: relative;
+    top: -50px;
+  background-image: url(../images/peoplejogging.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 .events-box{
 	background-color: rgba(0,0,0,0.4);
@@ -454,11 +544,63 @@ padding-top: 48px ! important;
   border-radius: 10px;
 }
 
+.events-image-col{
+  position: relative;
+    left: 40px;
+}
+
 .searchEvent{
 	margin-top: 15px;
 }
 
+.an-nyw-control form input.an-nyw-default{
+  width: 78px !important;
+}
 
+/*Upcoming Events Page*/
+.expand a, .collapse a, .user-register-button{
+  background: none !important;
+}
+
+.events-jumbotron-page{
+  position: relative;
+    top: -20px;
+  height: 570px;
+  background-image: url(../images/fitwomenlaughing.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#inputAddressEvents{
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 17px;
+}
+
+.search-events{
+  position: relative;
+    left: -35px;
+    top: 7px;
+}
+
+.events-top-space{
+  position: relative;
+  top: -90px;
+}
+
+/*.events-widget{
+  margin-left: 118px;
+  position: relative;
+    top: -487px;
+}*/
+
+/*.events-image{
+  width: 157.6%;
+  position: relative;
+    top: -49px;
+    left: -43px;
+}*/
 
 /*Contact and Sign Up Page Section*/
 
