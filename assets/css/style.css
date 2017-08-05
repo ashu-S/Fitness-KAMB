@@ -215,7 +215,7 @@
    position: relative;
   top: -20px;
   height: 570px;
-  background-image: url(../images/food-image.jpg) !important;
+  background-image: url(../images/dinnerparty.jpg) !important;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -244,6 +244,7 @@
   font-family: 'Questrial', sans-serif;
   position: relative;
   left: -30px;
+  
 }
 #searchGym{
   margin-top: 38px;
