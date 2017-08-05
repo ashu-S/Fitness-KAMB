@@ -210,7 +210,15 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
+/*Resturant page Jumbotron*/
+.resturantPage-jumbotron{
+   position: relative;
+  top: -20px;
+  height: 570px;
+  background-image: url(../images/food-image.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .space-jumbotron{
   background-color: #353638 !important;
   margin-top: 40px;
@@ -231,7 +239,12 @@
   position: relative;
   left: -30px;
 }
-
+/*text for Resturant page*/
+.resturant-text{
+  font-family: 'Questrial', sans-serif;
+  position: relative;
+  left: -30px;
+}
 #searchGym{
   margin-top: 38px;
   padding: 29px 28px 30px 28px !important;
@@ -437,7 +450,16 @@ position: relative;
 top: -20px;
 bottom: -10px;
 padding-top: 48px ! important;
-    padding-bottom: 65px ! important;
+padding-bottom: 65px ! important;
+background-size: 100%;
+
+
+/* position: relative;
+  top: -20px;
+  height: 970px;
+  background-image: url(../images/aerobicspic.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;*/
 }
 /*P tag for Resource page*/
 .resourcespagePara{

@@ -64,26 +64,23 @@
 	</nav> <!--End Nav-->
 
 <!--Decorative Jumbotron-->
-	<div class="jumbotron fitnesspage-jumbotron">
+	<div class="jumbotron resturantPage-jumbotron">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 search-gyms">
-					<aside class="gyms-text">
-						<h2>Eat Healthy Stay Healthy</h2>
-						<p>Search for the healthy vegetarian restaurants near you .</p>
+				<div class="col-md-8 resturant-box">
+					<aside class="resturant-text" style="color: #fff;">
+						<h2>Stay Fit</h2>
+						<p>Search for gyms near you to stay on top of your workout routine or start your new fitness lifestyle.</p>
 					</aside>
 					<form class="form-inline search-resturant-box">
 						<div class="form-group address-box">
-							<label for="inputAddress" style="margin-bottom: 20px">ENTER YOUR ADDRESS</label>
+							<label for="inputAddress" style="margin-bottom: 20px; color: #fff;">ENTER YOUR ADDRESS</label>
 							<br>
-							<input type="text" class="form-control" id="inputAddress" placeholder="Address or Zip Code">
+							<input type="text" class="form-control" id="inputAddress" placeholder="City, State, or Zip Code">
 						</div>
 						<button type="submit" class="btn btn-primary" id="searchGym"><i class="fa fa-search" aria-hidden="true" style="margin-right: 5px"></i>Find Resturants</button>
 					</form>
 				</div> <!--End First Col-->
-				<div class="col-md-5">
-					<img class="food-image" src="assets/images/food-image.jpg">
-				</div><!--End Second Col-->
 			</div> <!--End Row-->
 		</div> <!--End Container-->
 	</div> <!--End Jumbotron-->
@@ -92,49 +89,58 @@
 		<div class="jumbotron fitness-filler">
 			<div class="container">
 				<p class="fitness-empty-containter">
-
 				</p>
 			</div>
 		</div>
 	</section>
 <!--Rest of the Webpage-->
-	<div class="container">
-		<div class="row restaurant-page-container">
-			<section class="webpage-resturant-section">
-				<div class="col-md-6">
-					<div class="marquee">
-						<center>
-						 <h2><font color="#ffffff">10 VEGAN RESTURANTS</font></h2>
-						    <!-- <marquee bgcolor=orange width=500 height=400 direction=down  scrolldelay="500">  -->
-						    <marquee onMouseOver="this.scrollAmount=0" onMouseOut=" behviour ="slide" this.scrollAmount=10" scrollamount="10" bgcolor ="grey" direction="down" loop="true" width="70%" height="500" scrolldelay="200" behavior="scroll"> 
-							
-							<a  href="http://www.doshihouse.com/" target="_blank"><ul class="gym-rec">Doshi House Cafe</ul></a>
-
-							<a href= "http://www.houstonpress.com/location/quan-yin-6796952" target="_blank"><ul class="gym-rec">Quan Yin</ul></a>
-
-							<a href="http://fieldofgreenscuisine.com/" target="_blank"><ul class="gym-rec">Field Of Green's</ul></a>
-							<a href="https://lovinghut.us/houston/menu/" target="_blank"><ul class="gym-rec">Loving Hut</ul></a>
-							<a href="http://www.ilovepeppertree.com/" target="_blank"><ul class="gym-rec">Pepper Tree</ul></a>
-							<a href="http://www.cafeth.com/" target="_blank"><ul class="gym-rec"> Cafe TH</ul></a>
-							<a href="https://www.greenseedvegan.com/" target="_blank"><ul class="gym-rec">green seed vegan</ul></a>
-							<a href="http://www.eatatgreen.com/" target="_blank"><ul class="gym-rec">Green Vegetarian Cuisine</ul></a>
-							<a href="http://rugglesgreen.com/" target="_blank"><ul class="gym-rec">Ruggles Green</ul></a>
-							<a href="http://patgreerskitchen.com/" target="_blank"><ul class="gym-rec">Pat Greer's Kitchen</ul></a>
-							
-						</center>
-						</marquee>
-					</div> <!--End Marquee Div-->
-				</div> <!--End Col 1-->
-
-				<div class="col-md-6">
-					<div class="map-container">
-						<h2>Locations</h2>
-						<div id="Resturant-location"></div>
-					</div>
+	<div class="rec-textbox">
+		<div class="jumbotron space-jumbotron top-space">
+			<div class="container">
+				<h2>10 FITNESS CENTRES</h2>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row fivecolumns">
+				<div class="col-md-2">
+					<a  href="http://www.doshihouse.com/" target="_blank"><ul class="gym-rec">Doshi House Cafe</ul></a>
+					<a href= "http://www.houstonpress.com/location/quan-yin-6796952" target="_blank"><ul class="gym-rec">Quan Yin</ul></a>
 				</div>
-			</section>
-		</div> <!-- End Row 2-->
-	</div> <!--End Container-->
+				<div class="col-md-2">
+					<a href="http://fieldofgreenscuisine.com/" target="_blank"><ul class="gym-rec">Field Of Green's</ul></a>
+					<a href="https://lovinghut.us/houston/menu/" target="_blank"><ul class="gym-rec">Loving Hut</ul></a>		
+				</div>
+				<div class="col-md-2">
+					<a href="http://www.ilovepeppertree.com/" target="_blank"><ul class="gym-rec">Pepper Tree</ul></a>
+					<a href="http://www.cafeth.com/" target="_blank"><ul class="gym-rec"> Cafe TH</ul></a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.greenseedvegan.com/" target="_blank"><ul class="gym-rec">green seed vegan</ul></a>
+					<a href="http://www.eatatgreen.com/" target="_blank"><ul class="gym-rec">Green Vegetarian Cuisine</ul></a>
+				</div>
+				<div class="col-md-2">
+					<a href="http://rugglesgreen.com/" target="_blank"><ul class="gym-rec">Ruggles Green</ul></a>
+					<a href="http://patgreerskitchen.com/" target="_blank"><ul class="gym-rec">Pat Greer's Kitchen</ul></a>
+				</div>
+			</div> <!--End Second Row-->
+		</div><!--End Container-->
+	</div> <!--End Rec box-->
+<div class="map-container-large">
+	<div class="jumbotron space-jumbotron">
+		<div class="container">
+			<h2>LOCATIONS</h2>
+		</div>
+	</div>
+
+	<div class="container-fluid map-fluid">
+		<div class="row map-row">
+			<div class="col-md-12 map-container" id="mapContainer">
+			</div>
+		</div>
+	</div>
+</div>
+	
+
 
 <!--Footer-->
 	<footer>
