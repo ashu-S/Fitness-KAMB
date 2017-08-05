@@ -235,12 +235,13 @@
 .row{
   padding: 1px;
 }
+
 .columnSize{
- /* padding-right:0 ! important;
-    padding-left:0 ! important;
-     padding: 0 !important;
-   margin: 0 !important*/
+
+
    width: 21% ! important;
+  
+    /*padding: 1px;*/
 }
 /*.division1{
   border-style: solid;
