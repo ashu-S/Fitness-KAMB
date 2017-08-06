@@ -200,6 +200,45 @@
   position: relative;
   top: 20px;
 }
+
+/*Login Button pop-up*/
+.modal-body-login{
+  height: 320px;
+  position: relative;
+}
+.registration-body{
+  position: relative ! important;
+  top: 10px ! important;
+}
+.login-body{
+   position: relative ! important;
+  top: 40px ! important;
+}
+.nav-tabs{
+    margin-bottom: 15px;
+}
+.sign-with{
+    margin-top: 25px;
+    padding: 20px;
+}
+#OR{
+   height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+
 /*.mySlides {
     display: none;
     position: relative;
