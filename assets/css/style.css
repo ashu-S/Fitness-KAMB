@@ -293,6 +293,13 @@
   left: -30px;
 }
 
+ #map {
+  height: 60%;
+  width:60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
 /*text for Resturant page*/
 .resturant-text{
   font-family: 'Questrial', sans-serif;
