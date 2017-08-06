@@ -14,12 +14,10 @@
 // }
 
 $(document).ready(function(){
-	
-	event.preventDefault();
 
-	$('.createAccountButton').on("click", function() {
+	$('.createAccountButton').on("click", function(event) {
 		event.preventDefault();
 		$('#myModal').modal();
-	})
+	});
 	
 });
