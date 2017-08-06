@@ -473,10 +473,12 @@ a{
 }
 
 #map {
- height: 60%;
- width:60%;
- margin-left: 20%;
- margin-top: 10%;
+ height: 100%;
+ width: 100%;
+ top : 0;
+ left : 0; 
+ position : absolute; 
+ z-index : 200;
 }
 
 /*Filler Jumbotron Fitness Page*/
