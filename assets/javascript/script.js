@@ -5,6 +5,10 @@ $(document).ready(function(){
 		$('#myModal').modal();
 	});
 
+	$('#buttonLogin').on("click", function(event) {
+		event.preventDefault();
+		$('#myModal').modal();
+	});
 
 });
 

@@ -162,7 +162,7 @@
 
 .modal-btn{
   position: relative;
-    top: 86px;
+    top: 71px;
 }
 
 .OR {
@@ -193,13 +193,36 @@
 }
 
 .modal-body{
-  height: 320px;
+  height: 340px;
 }
 
 .reg-body{
   position: relative;
-  top: 20px;
+  top: 30px;
 }
+
+/*Login Button pop-up*/
+.modal-body-login{
+  height: 340px;
+  /*position: relative;*/
+}
+.registration-body{
+  position: relative ! important;
+  top: 10px ! important;
+}
+.login-body{
+   position: relative ! important;
+  top: 40px ! important;
+}
+.nav-tabs{
+    margin-bottom: 15px;
+}
+.sign-with{
+    margin-top: 25px;
+    padding: 20px;
+}
+
+
 /*.mySlides {
     display: none;
     position: relative;
@@ -342,8 +365,7 @@
     margin:1.66%;
     background-color: #1E1E1E;
 }
-=======
->>>>>>> c6ea02bc78d35338fd3d497f39969c609b1dcd70
+
 .search-gyms{
   position: relative;
     left: -35px;
@@ -501,6 +523,7 @@ a{
 .row{
   padding: 1px;
 }
+
 .columnSize{
  /* padding-right:0 ! important;
     padding-left:0 ! important;
