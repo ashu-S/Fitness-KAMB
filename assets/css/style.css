@@ -35,6 +35,7 @@
     font-size: 30px ! important;
     color: white ! important;
   }
+<<<<<<< HEAD
 
 .nav-tabs {
     margin-bottom: 15px;
@@ -60,6 +61,8 @@ div#OR {
     background: #DFDFDF;
 }
 
+=======
+>>>>>>> c4ca43d3b5c564bd4b0541209fa9185a001864de
   
 .logo{
 	position: relative;
@@ -179,6 +182,52 @@ div#OR {
   margin-bottom: 60px;
 }
 
+/*Modal*/
+
+.modal{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.modal-btn{
+  position: relative;
+    top: 86px;
+}
+
+.OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+.modal-dialog{
+  position: relative;
+    top: 57px;
+}
+
+.modal-header{
+  background-color: #353638 !important;
+  color: #fff;
+}
+
+.modal-body{
+  height: 320px;
+}
+
+.reg-body{
+  position: relative;
+  top: 20px;
+}
 /*.mySlides {
     display: none;
     position: relative;
@@ -240,6 +289,7 @@ div#OR {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 /*Resturant page Jumbotron*/
 .resturantPage-jumbotron{
    position: relative;
@@ -249,6 +299,7 @@ div#OR {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .space-jumbotron{
   background-color: #353638 !important;
   margin-top: 40px;
@@ -269,6 +320,14 @@ div#OR {
   position: relative;
   left: -30px;
 }
+
+ #map {
+  height: 60%;
+  width:60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
 /*text for Resturant page*/
 .resturant-text{
   font-family: 'Questrial', sans-serif;
@@ -285,7 +344,6 @@ div#OR {
   font-size: 15px;
 }
 
-<<<<<<< HEAD
 .jumbotron-division{
   /*border-style: solid;  */
   /*border-width: 2px;*/
@@ -834,3 +892,4 @@ footer{
 	line-height: 101px;
 	margin-bottom: -20px;
 }
+

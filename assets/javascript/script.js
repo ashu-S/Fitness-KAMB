@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //var slideIndex = 0;
 //showSlides();
 
@@ -30,3 +31,16 @@ $(document).ready(function(){
 
 // $('#myModal').modal('show');
 // });
+=======
+//Most Recently Done: Copy and pasted Bonnie's code onto this page to incorporate it into the restaurants page.
+
+$(document).ready(function(){
+
+	$('.createAccountButton').on("click", function(event) {
+		event.preventDefault();
+		$('#myModal').modal();
+	});
+
+
+});
+>>>>>>> c4ca43d3b5c564bd4b0541209fa9185a001864de

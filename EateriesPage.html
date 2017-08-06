@@ -22,9 +22,11 @@
 	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 	<!--Firebase-->
 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<!--Google Maps-->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCEYkzEir7zBfdKJiCF0sVKJnc24BJxYs4&search?q=vegan+restaurants+in+houston&rlz=1C1CHBD_enUS748US748&oq=vegan+restaurants"></script>
 </head>
 
-<body>
+<body onload="onload()">
 <!--Navigation Bar-->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
@@ -136,7 +138,9 @@
 
 	<div class="container-fluid map-fluid">
 		<div class="row map-row">
-			<div class="col-md-12 map-container" id="mapContainer">
+			<div class="col-md-12 map-container">
+				<p id="geocode_op"></p>
+    			<div id="map"></div>
 			</div>
 		</div>
 	</div>
@@ -151,7 +155,9 @@
 		</div>
 	</footer>
 
-	<script src="assets/javascript/script.js"></script>
+	<script src="assets/javascript/testJS.js" type="application/javascript"> </script>  
+ 	<script type="text/javascript" src="assets/javascript/zomato-googleAPI.js"></script>
+ 	<script src="assets/javascript/script.js"></script> 
 </body>
 
 </html>
