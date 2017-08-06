@@ -1,5 +1,3 @@
-
-
 var map;
 var infoWindow; // use later for pop up info windows on restaurants
 var markers=[];
