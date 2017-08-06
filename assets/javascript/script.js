@@ -14,15 +14,6 @@
 //     setTimeout(showSlides, 5000); // Change image every 5seconds
 // }
 //$('#myModal').modal('show');
-$(document).ready(function(){
-	//	alert("hi");
-	// event.preventDefault();
-	//$(".loginInButton").on("click",function(){
-	//	alert("hi");
-	//	console.log($('#myModal'));
-		//$('#myModal').modal('show');
-		$('#myModal').modal('show');
-});
 
 // function fnlogin(){
 // 
