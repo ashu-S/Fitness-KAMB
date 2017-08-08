@@ -263,7 +263,8 @@
   font-size: 15px;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+
 .jumbotron-division{
   /*border-style: solid;  */
   /*border-width: 2px;*/
@@ -301,8 +302,8 @@
     margin:1.66%;
     background-color: #1E1E1E;
 }
-=======
->>>>>>> c6ea02bc78d35338fd3d497f39969c609b1dcd70
+/* =======
+>>>>>>> c6ea02bc78d35338fd3d497f39969c609b1dcd70 */
 .search-gyms{
   position: relative;
     left: -35px;
@@ -402,11 +403,16 @@ a{
   top: 0 !important;
 }
 
+.map-container-large{
+  height: 660px;
+  position: relative;
+}
+
 .map-container{
   height: 660px;
   position: relative;
-    top: -34px;
-  margin-bottom: 72px
+  /* top: -34px; */
+  /* margin-bottom: 72px */
 }
 
 /*Filler Jumbotron Fitness Page*/
@@ -450,9 +456,13 @@ a{
   top: -30px;
 }
 
-.row{
+/* leave this with a defined height so that the map will display */
+.map-row{
+  height: 600px;
   padding: 1px;
-}
+} 
+
+
 .columnSize{
  /* padding-right:0 ! important;
     padding-left:0 ! important;
@@ -792,6 +802,16 @@ html {
 }
 body {
     margin: 0px 0px 100px; /* bottom = footer height */
+}
+
+/* Adding styling for Map*/
+/* Always set the map height explicitly to define the size of the div
+element that contains the map. */
+#map {
+  height: 60%;
+  width:60%;
+  /*margin-left: 20%;*/
+  /*margin-top: 10%;*/
 }
 
 footer{
