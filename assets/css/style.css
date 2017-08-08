@@ -197,7 +197,18 @@
 }
 
 .calc-body{
-  height: 600px;
+  height: 910px;
+}
+
+.omni-calculator{
+  position: relative !important;
+  left: 60px !important;
+}
+
+.omni-calculator-header{
+  background-color: #232323 !important;
+  color: #fff !important;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 .reg-body{
