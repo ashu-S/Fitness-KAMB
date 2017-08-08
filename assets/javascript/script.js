@@ -60,25 +60,8 @@ $(document).ready(function(){
   // Firebase watcher + initial loader
     database.ref().on("value", function(snapshot) {
 
-      // storing the snapshot.val() in a variable for convenience
-      var sv = snapshot.val();
-      
-      // Getting an array of each key In the snapshot object
-      var svArr = Object.keys(sv);
 
-      // Finding the last user's key
-      var lastIndex = svArr.length - 1;
-
-      var lastKey = svArr[lastIndex];
-
-      // Using the last user's key to access the last added user object
-      var lastObj = sv[lastKey]
-
-      // Console.loging the last user's data
-      console.log(lastObj.username);
-      console.log(lastObj.email);
-      console.log(lastObj.password);
-      console.log(lastObj.confirmPassword);
+      $("#userHeader").html(snapshot.val().username);
 
       // Handle the errors
     }, function(errorObject) {
