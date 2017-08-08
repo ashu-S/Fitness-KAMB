@@ -447,11 +447,16 @@ a{
   top: 0 !important;
 }
 
+.map-container-large{
+  height: 660px;
+  position: relative;
+}
+
 .map-container{
   height: 660px;
   position: relative;
-    top: -34px;
-  margin-bottom: 72px
+  /* top: -34px; */
+  /* margin-bottom: 72px */
 }
 
 #map {
@@ -495,9 +500,11 @@ a{
   top: -30px;
 }
 
-.row{
+/* leave this with a defined height so that the map will display */
+.map-row{
+  height: 600px;
   padding: 1px;
-}
+} 
 
 .columnSize{
  /* padding-right:0 ! important;
@@ -861,6 +868,16 @@ html {
 }
 body {
     margin: 0px 0px 100px; /* bottom = footer height */
+}
+
+/* Adding styling for Map*/
+/* Always set the map height explicitly to define the size of the div
+element that contains the map. */
+#map {
+  height: 60%;
+  width:60%;
+  /*margin-left: 20%;*/
+  /*margin-top: 10%;*/
 }
 
 footer{
