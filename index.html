@@ -90,7 +90,7 @@
 							<h3>Fitness KAMB provides a digital resource to create or maintain an optimal quality of life. Whether you are new to the area or looking to begin the path to a healthier lifestyle, Fitness KAMB allows you to meet your fitness aspirations and goals. </h3>
 						</div><!--End About Text-->
 						<div class="buttons-box">
-							<button type="button" class="btn btn-primary btn-lg">
+							<button type="button" class="btn btn-primary btn-lg calcGoals" data-toggle="modal" data-delay = "50" data-target="#myCalcModal">
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -112,7 +112,7 @@
 							<h3>Round is a lovely shape, and if you're feeling like trying out a new one, you can search for the right gym to best serve your fitness goals. Find the best exercise routine for you and get started!</h3>
 						</div><!--About Text End-->
 						<div class="buttons-box">
-							<button type="button" class="btn btn-primary btn-lg">
+							<button type="button" class="btn btn-primary btn-lg calcGoals" data-toggle="modal" data-delay = "50" data-target="#myCalcModal">
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -134,7 +134,7 @@
 							<h3>Find restaurants near you that fit your dietary needs. Whether on a first date, out with friends, or Sunday brunch, we make it easy to find the perfect food spot for a healthy lifestyle. </h3>
 						</div> <!--End About Text-->
 						<div class="buttons-box">
-							<button type="button" class="btn btn-primary btn-lg">
+							<button type="button" class="btn btn-primary btn-lg calcGoals" data-toggle="modal" data-delay = "50" data-target="#myCalcModal">
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -156,7 +156,7 @@
 							<h3>You don't have to do it alone! Find others with similar fitness interest and goals as you and work towards them together. Search for events in your area and start forming constructive and supportive relationships to best reach your aspirations.</h3>
 						</div> <!--End About Text-->
 						<div class="buttons-box">
-							<button type="button" class="btn btn-primary btn-lg">
+							<button type="button" class="btn btn-primary btn-lg calcGoals" data-toggle="modal" data-delay = "50" data-target="#myCalcModal">
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -181,6 +181,28 @@
 			</div> <!--End Carousel Inner-->
 		</div> <!--End Carousel-->
 	</div> <!--End Jumbotron-->
+
+<!--Weight Loss Calculator Modal-->
+<div class="modal fade" id="myCalcModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: #fff">
+                    ×</button>
+                <h4 class="modal-title" id="myRegistrationModalLabel">
+                    Calculate Your Weight Loss Goals</h4>
+            </div>
+            <div class="modal-body calc-body">
+            	</p>
+					<div class="row" style="margin:auto;">
+					<iframe scrolling="yes" frameborder="0" width="100%" height="460" src="https://www.mealpro.net/dietanalysis" title="MealProDietAnalysis" class="borderline" style="overflow:hidden; display:inline-block; float:middle"></iframe>
+					</div>
+				<p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Registration modal -->
 <div class="modal fade" id="myRegistrationModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"

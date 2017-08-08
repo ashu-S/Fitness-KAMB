@@ -10,6 +10,11 @@ $(document).ready(function(){
 		$('#myModal').modal();
 	});
 
+  $('.calcGoals').on("click", function(event) {
+    event.preventDefault();
+    $('#myModal').modal();
+  });
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyA4H2dmpHWDTIpH4jUuTEIlz_neie3sC1w",
