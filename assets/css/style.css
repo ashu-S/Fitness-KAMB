@@ -1,20 +1,20 @@
 /*Nav Bar*/
 .navbar{
-	height: 70px;
+  height: 70px;
 }
 
 .container-fluid{
-	position: relative;
-	top: 8px;
+  position: relative;
+  top: 8px;
 }
 
 /*.checkbox{
-	color: #fff !important;
-	margin-left: 6px;
+  color: #fff !important;
+  margin-left: 6px;
 }*/
 
 .form-group{
-	margin-left: 3px !important;
+  margin-left: 3px !important;
   position: relative;
   top: -4px;
 }
@@ -35,30 +35,27 @@
     font-size: 30px ! important;
     color: white ! important;
   }
-
-
-
   
 .logo{
-	position: relative;
-	top: -47px;
+  position: relative;
+  top: -47px;
   height: 113px;
 }
 /*All Buttons*/
 .btn{
-	margin-left: 6px;
-	background-color: rgba(0,0,0,.7) !important;
-	border: none !important;
+  margin-left: 6px;
+  background-color: rgba(0,0,0,.7) !important;
+  border: none !important;
   padding: 12px !important;
   font-family: 'Quicksand', sans-serif !important;
 }
 
 .btn:hover{
-	background-color: rgba(0,0,0,.8) !important;
+  background-color: rgba(0,0,0,.8) !important;
 }
 
 .btn:focus{
-	background-color: rgba(0,0,0,.9) !important;
+  background-color: rgba(0,0,0,.9) !important;
 }
 
 #inputSearch{
@@ -110,17 +107,17 @@
 /*About Jumbotron*/
 
 /*.about-jumbotron{
-	height: 910px;
-	background-image: url(../images/womanstretchingbeach.jpg) !important; 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	position: relative;
-	top: -20px;
+  height: 910px;
+  background-image: url(../images/womanstretchingbeach.jpg) !important; 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -20px;
 }*/
 .carousel-jumbotron{
   position: relative;
     top: -20px;
-  height: 908px;
+  height: 876px;
   margin-bottom: 30px;
   padding-top: 0px !important;
   padding-bottom : 0px !important;
@@ -132,9 +129,9 @@
 }*/
 
 .buttons-box{
-	position: relative;
-	left: -185px;
-	top: 100px;
+  position: relative;
+  left: -185px;
+  top: 100px;
 }
 
 .carousel-caption{
@@ -146,45 +143,89 @@
 .about-text{
   position: relative;
   left: 47px;
-	width: 61% !important;
-	font-family: 'Quicksand', sans-serif;
+  width: 61% !important;
+  font-family: 'Quicksand', sans-serif;
   color: #161616;
   text-align: left !important;
 
 }
 
 .carousel-indicators{
-  margin-bottom: 60px;
+  margin-bottom: 75px;
 }
 
-/*.mySlides {
-    display: none;
-    position: relative;
-    top: -48px;
+/*Modal*/
+
+.modal{
+  font-family: 'Quicksand', sans-serif;
 }
 
-/* Fading animation */
-/*.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
-  animation-name: fade;
-  animation-duration: 5s;
+.modal-btn{
+  position: relative;
+    top: 71px;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}*/
+.modal-dialog{
+  position: relative;
+    top: 57px;
+}
+
+.modal-header{
+  background-color: #353638 !important;
+  color: #fff;
+}
+
+.modal-body{
+  height: 340px;
+}
+
+.reg-body{
+  position: relative;
+  top: 30px;
+}
+
+/*Login Button pop-up*/
+.modal-body-login{
+  height: 340px;
+  /*position: relative;*/
+}
+.registration-body{
+  position: relative ! important;
+  top: 15px ! important;
+}
+.login-body{
+   position: relative ! important;
+  top: 40px ! important;
+}
+.nav-tabs{
+    margin-bottom: 15px;
+}
+.sign-with{
+    margin-top: 25px;
+    padding: 20px;
+}
 
 /*Fitness Jumbotron*/
 
 .fitness-jumbotron{
-	height: 600px;
+  height: 600px;
     position: relative;
     top: -50px;
   background-image: url(../images/fitnessarmsandabs.jpg);
@@ -194,10 +235,10 @@
 }
 
 .fitness-box{
-	background-color: rgba(0,0,0,0.4);
-	text-align: center;
-	color: #fff;
-	padding: 30px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  color: #fff;
+  padding: 30px;
   float: right;
   position: relative;
     left: 13.5%;
@@ -206,7 +247,7 @@
 }
 
 .searchFit{
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 /*Fitness Page Jumbotron*/
@@ -218,6 +259,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 /*Resturant page Jumbotron*/
 .resturantPage-jumbotron{
    position: relative;
@@ -227,6 +269,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .space-jumbotron{
   background-color: #353638 !important;
   margin-top: 40px;
@@ -247,6 +290,7 @@
   position: relative;
   left: -30px;
 }
+
 /*text for Resturant page*/
 .resturant-text{
   font-family: 'Questrial', sans-serif;
@@ -262,8 +306,6 @@
     left: -5px;
   font-size: 15px;
 }
-
-/* <<<<<<< HEAD */
 
 .jumbotron-division{
   /*border-style: solid;  */
@@ -286,7 +328,6 @@
     /*padding: 1px;*/
 }
 /*@media screen and (min-width:992px)
-
 {
 .col-md-3 {
     width: 25%;
@@ -302,8 +343,7 @@
     margin:1.66%;
     background-color: #1E1E1E;
 }
-/* =======
->>>>>>> c6ea02bc78d35338fd3d497f39969c609b1dcd70 */
+
 .search-gyms{
   position: relative;
     left: -35px;
@@ -415,6 +455,15 @@ a{
   /* margin-bottom: 72px */
 }
 
+#map {
+ height: 100%;
+ width: 100%;
+ top : 0;
+ left : 0; 
+ position : absolute; 
+ z-index : 200;
+}
+
 /*Filler Jumbotron Fitness Page*/
 .fitness-filler{
   height: 210px;
@@ -425,22 +474,13 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /*Filler Jumbotron Resturant Page*/
 .resturant-filler{
   height: 210px;
   position: relative;
   top: -50px;
   background-image: url(../images/food-image.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-/*Filler Jumbotron Fitness Page*/
-.fitness-filler{
-  height: 210px;
-  position: relative;
-    top: -50px;
-  background-image: url(../images/weightsfree.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -461,7 +501,6 @@ a{
   height: 600px;
   padding: 1px;
 } 
-
 
 .columnSize{
  /* padding-right:0 ! important;
@@ -547,7 +586,7 @@ The good life,Interval training*/
 
 /*Filler Jumbotron*/
 .filler-jumbotron{
-	position: relative;
+  position: relative;
     top: -80px;
   height: 220px;
   background-image: url(../images/weights.jpeg);
@@ -558,7 +597,7 @@ The good life,Interval training*/
 
 /*Restaurant Jumbotron*/
 .eateries-jumbotron{
-	height: 600px;
+  height: 600px;
   position: relative;
     top: -110px;
   background-image: url(../images/meals.jpg);
@@ -568,10 +607,10 @@ The good life,Interval training*/
 }
 
 .eateries-box{
-	background-color: rgba(0,0,0,0.5);
-	text-align: center;
-	color: #fff;
-	padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  color: #fff;
+  padding: 30px;
   border-radius: 10px;
   float: left;
   position: relative;
@@ -581,7 +620,7 @@ The good life,Interval training*/
 
 /*Second Filler Jumbotron*/
 .second-filler-jumbotron{
-	position: relative;
+  position: relative;
     top: -140px;
   height: 220px;
   background-image: url(../images/foodassortment.jpg);
@@ -592,7 +631,7 @@ The good life,Interval training*/
 
 /*Events Jumbotron*/
 .events-jumbotron{
-	height: 600px;
+  height: 600px;
   position: relative;
     top: -170px;
   background-image: url(../images/threewomandoingyoga.jpg);
@@ -603,10 +642,10 @@ The good life,Interval training*/
 
 
 .events-box{
-	background-color: rgba(0,0,0,0.4);
-	text-align: center;
-	color: #fff;
-	padding: 30px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  color: #fff;
+  padding: 30px;
   float: right;
   position: relative;
     left: 13.5%;
@@ -620,7 +659,7 @@ The good life,Interval training*/
 }
 
 .searchEvent{
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 .an-nyw-control form input.an-nyw-default{
@@ -697,28 +736,28 @@ The good life,Interval training*/
 /*Contact and Sign Up Page Section*/
 
 .signup-contact-section{
-	position: relative;
-	top: -200px;
-	height: 400px;
-	border-top: 80px solid #83dbea;
-	color: #e3ebed;
+  position: relative;
+  top: -200px;
+  height: 400px;
+  border-top: 80px solid #83dbea;
+  color: #e3ebed;
 }
 
 .contact-signup{
-	margin-top: 30px;
-	width: 550px !important;
+  margin-top: 30px;
+  width: 550px !important;
 }
 .signup{
-	margin-left: 25px;
+  margin-left: 25px;
 }
 
 .contact{
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .signup-text{
-	text-align: center;
-	font-family: 'Nixie One', cursive;
+  text-align: center;
+  font-family: 'Nixie One', cursive;
 }
 
 .sign-up-btn{
@@ -730,8 +769,8 @@ The good life,Interval training*/
 }
 
 .contact-text{
-	text-align: center;
-	font-family: 'Nixie One', cursive;
+  text-align: center;
+  font-family: 'Nixie One', cursive;
 }
 
 .contact-btn{
@@ -787,11 +826,34 @@ The good life,Interval training*/
 .loginBtn--google:focus {
   background: #E74B37;
 }
+/*profile page*/
+ hr {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    border: 0 !important;
+    border-top: 1px solid #999 !important;
+}
+.jumbotron-profile{
+    position: relative !important;
+    top: -20px !important;
+    background-color:  rgba(255,255,255,.15)!important;
+}
+.container-profile{
+    position: relative !important;
+    top: -30px!important;
+}
 
+.profileHeader{
+  /*background-color: #353638 !important;*/
+  color: #fff;
+}
+.profile-nav-a{
+      color: #080808 ! important;
+}
 /*Body Styling*/
 
 body{
-	background-color: #4a98a5 !important;
+  background-color: #4a98a5 !important;
 }
 
 /*Sticky Footer*/
@@ -815,20 +877,20 @@ element that contains the map. */
 }
 
 footer{
-	position: absolute;
+  position: absolute;
     left: 0px;
     bottom: 0px;
     height: 110px;
     width: 100%;
-	background-color: #161616;
-	text-align: center;
-	line-height: 100px;
-	border-top: 7px solid #39707a;
+  background-color: #161616;
+  text-align: center;
+  line-height: 100px;
+  border-top: 7px solid #39707a;
 }
 
 .footer-text{
-	color: lightgray;
-	font-family: Arial;
-	line-height: 101px;
-	margin-bottom: -20px;
+  color: lightgray;
+  font-family: Arial;
+  line-height: 101px;
+  margin-bottom: -20px;
 }

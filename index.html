@@ -8,12 +8,13 @@
 	<title>Fitness KAMB</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/secondstyle.css">
  	<link rel="icon" type="image/png" href="assets/images/fitnesskamb.png"/>
  	<link rel="SHORTCUT ICON" href="assets/images/fitnesskamb.png"/>
  	<!--Fonts-->
  	<link href="https://fonts.googleapis.com/css?family=Forum|Josefin+Sans|Nixie+One|Poiret+One|Proza+Libre|Questrial|Quicksand" rel="stylesheet">
  	<!--JQuery Library-->
- 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
  	<!--Bootstrap CSS-->
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,8 +23,7 @@
  	<!--Moment JS file-->
  	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
  	<!--Firebase-->
- 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
- 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 
 </head>
 
@@ -42,9 +42,7 @@
 	      <a class="navbar-brand" href="index.html">
 	      	<img class="logo" src="assets/images/fitnesskamb2.png">
 	      </a>
-
-
-	    </div>
+	   </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -62,15 +60,12 @@
 			    <input type="email" class="form-control" id="inputSearch" placeholder="Search">
 			  </div>
 			  <button type="submit" class="btn btn-primary" id="buttonSearch"><i class="fa fa-search" aria-hidden="true"></i></button>
-			  <button type="submit" class="btn btn-primary" id="buttonLogin">Log in<i class="fa fa-sign-in" aria-hidden="true" style="margin-left: 5px"></i></button>
-			 <i class="fa fa-user-circle " id="userIcon" data-toggle="tooltip" 
+			  <button type="submit" class="btn btn-primary" id="buttonLogin" data-toggle="modal" data-delay = "50" data-target="#LoginModal">Log in<i class="fa fa-sign-in" aria-hidden="true" style="margin-left: 5px"></i></button>
+			 <a href="profilepage.html"><i class="fa fa-user-circle " id="userIcon" data-toggle="tooltip" 
 			 data-placement="bottom" aria-hidden="true" style="margin-left: 5px" title="User Profile" ></i>
-
+			 </a> 
 			</form>
-			
-
 	    </div><!-- /.navbar-collapse -->
-
 	  </div><!-- /.container-fluid -->
 	</nav> <!--End Nav-->
 
@@ -99,7 +94,7 @@
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
-							<button type="button" class="btn btn-primary btn-lg create-account">
+							<button type="button" class="btn btn-primary btn-lg createAccountButton" data-toggle="modal" data-delay = "50" data-target="#myRegistrationModal">
 								Create an Account
 								<i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -121,7 +116,7 @@
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
-								<button type="button" class="btn btn-primary btn-lg create-account">
+								<button type="button" class="btn btn-primary btn-lg createAccountButton" data-toggle="modal" data-delay = "50" data-target="#myRegistrationModal">
 								Create an Account
 								<i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -143,7 +138,7 @@
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
-							<button type="button" class="btn btn-primary btn-lg create-account">
+							<button type="button" class="btn btn-primary btn-lg createAccountButton" data-toggle="modal" data-delay = "50" data-target="#myRegistrationModal">
 								Create an Account
 								<i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -165,7 +160,7 @@
 								Generate Goals
 								<i class="fa fa-random" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
-							<button type="button" class="btn btn-primary btn-lg create-account">
+							<button type="button" class="btn btn-primary btn-lg createAccountButton" data-toggle="modal" data-delay = "50" data-target="#myRegistrationModal">
 								Create an Account
 								<i class="fa fa-user-circle-o" aria-hidden="true" style="margin-left: 5px"></i>
 							</button>
@@ -187,6 +182,194 @@
 		</div> <!--End Carousel-->
 	</div> <!--End Jumbotron-->
 
+<!-- Registration modal -->
+<div class="modal fade" id="myRegistrationModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: #fff">
+                    ×</button>
+                <h4 class="modal-title" id="myRegistrationModalLabel">
+                    REGISTRATION</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row reg-body">
+                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Registration">
+                                <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputUsername" class="col-sm-2 control-label">
+                                        Username</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control inputUsername" placeholder="Username"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAccountEmail" class="col-sm-2 control-label">
+                                        Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control inputAccountEmail" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAccountPassword" class="col-sm-2 control-label">
+                                        Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control inputAccountPassword" placeholder="Password" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputConfirmAccountPassword" class="col-sm-2 control-label">
+                                        Confirm Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control inputConfirmAccountPassword" placeholder="Password"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <button type="button" class="btn btn-primary btn-sm" id="saveReg" data-dismiss="modal">
+                                            Save & Continue</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">
+                                            Cancel</button>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hidden-xs OR">
+                            OR</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row text-center sign-with">
+                            <div class="col-md-12">
+                                <button class="modal-btn loginBtn loginBtn--google">Login with Google</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End Row-->
+            </div> <!--End Modal Body-->
+        </div><!--End Modal Content-->
+    </div> <!--End Modal Dialogue-->
+</div> <!--End Modal-->
+
+<!-- Login modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="myLoginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×</button>
+                <h4 class="modal-title" id="myModalloginLabel">
+                    LOGIN OR REGISTRATION </a></h4>
+            </div>
+            <div class="modal-body modal-body-login">
+                <div class="row">
+                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                            <li><a href="#Registration1" data-toggle="tab">Registration</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Login">
+                                <form role="form" class="form-horizontal login-body">
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                        Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            Submit</button>
+                                        <a href="javascript:;">Forgot your password?</a>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            <!-- Registration form -->
+                            <div class="tab-pane" id="Registration1">
+								<form role="form" class="form-horizontal registration-body">
+	                                <div class="form-group">
+	                                    <label for="email" class="col-sm-2 control-label">
+	                                        Username</label>
+	                                    <div class="col-sm-10">
+	                                        <input type="text" class="form-control" placeholder="Username"/>
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label for="email" class="col-sm-2 control-label">
+	                                        Email</label>
+	                                    <div class="col-sm-10">
+	                                        <input type="email" class="form-control" id="email" placeholder="Email" />
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label for="password" class="col-sm-2 control-label">
+	                                        Password</label>
+	                                    <div class="col-sm-10">
+	                                        <input type="password" class="form-control" id="password" placeholder="Password" />
+	                                    </div>
+	                                </div>
+	                                <div class="form-group">
+	                                    <label for="password" class="col-sm-2 control-label">
+	                                        Confirm Password</label>
+	                                    <div class="col-sm-10">
+	                                        <input type="password" class="form-control" id="password" placeholder="Password" />
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-sm-2">
+	                                    </div>
+	                                    <div class="col-sm-10">
+	                                        <button type="button" class="btn btn-primary btn-sm" id="saveReg">
+	                                            Save & Continue</button>
+	                                        <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">
+	                                            Cancel</button>
+	                                    </div>
+	                                </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hidden-xs OR">
+                            OR</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row text-center sign-with">
+                           <!--  <div class="col-md-12">
+                                <h3>
+                                    Sign in with</h3>
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="btn-group btn-group-justified">
+                                    <button class="modal-btn loginBtn loginBtn--google">Login with Google</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--Webpage Body-->
 	<div class="body-webpage">
@@ -221,7 +404,6 @@
 							Want to spend a night out with friends? There are plenty of healthy options for all tastes. Don't forget to add some kale.
 						</p>
 						<a href="EateriesPage.html" type="button" class="btn btn-primary btn-lg searchFit"><span class="glyphicon glyphicon-search" aria-hidden="true" style="margin-right: 10px"></span>Search for Resturants</a>
-						
 					</aside>
 				</div>
 			</div>
@@ -283,17 +465,22 @@
 
 						  <div class="form-group">
 						   	<label for="inputUsername">Username</label>
-						    <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+						    <input type="text" class="form-control inputUsername" placeholder="Username">
 						  </div>
 
 						  <div class="form-group">
 						     <label for="inputAccountEmail">Email</label>
-						   	 <input type="email" class="form-control" id="inputAccountEmail" placeholder="example@email.com">
+						   	 <input type="email" class="form-control inputAccountEmail" placeholder="example@email.com">
 						  </div>
 
 						  <div class="form-group">
 						     <label for="inputAccountPassword">Password</label>
-						   	 <input type="password" class="form-control" id="inputAccountPassword" placeholder="password">
+						   	 <input type="password" class="form-control inputAccountPassword" placeholder="password">
+						  </div>
+
+						  <div class="form-group">
+						     <label for="inputConfirmAccountPassword">Confirm Password</label>
+						   	 <input type="password" class="form-control inputConfirmAccountPassword" placeholder="password">
 						  </div>
 
 						  <div class="form-group">
@@ -302,14 +489,13 @@
 							    <button class="loginBtn loginBtn--google">Login with Google</button>
 						    </div>
 						  </div>
-
 						</form> <!--End Sign Up Form-->
 					</div> <!--End signup col -->
 				</div> <!--End Row-->
 			</div> <!--End Containter-->
 		</section></a> <!--End sign up and contact form-->
-		
 	</div> <!--End Body Webpage-->
+
 
 <!--Footer-->
 	<footer>
