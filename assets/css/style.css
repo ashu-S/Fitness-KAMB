@@ -872,6 +872,11 @@ The good life,Interval training*/
 .profile-nav-a{
       color: #080808 ! important;
 }
+.profile-pannel{
+    position: relative ! important;
+    top: -115px ! important;
+    width: 292px ! important;
+}
 /*Body Styling*/
 
 body{
