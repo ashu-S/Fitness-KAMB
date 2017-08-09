@@ -428,13 +428,19 @@ a{
 }
 
 .mapFitness{
-  height: 500px;
+/*  height: 500px;
   margin-bottom: 173px;
   position: relative;
     left: 49px;
   width: 780px;
-  overflow: auto;
+  overflow: none ! important;*/
+    overflow: visible !important;
+    margin-left: 158px !important;
+    position: relative ;
+    top: 227px !important;
+    /*height: 100%;*/
 }
+
 
 .map-fluid{
   position: relative;
@@ -454,16 +460,17 @@ a{
   /* top: -34px; */
   /* margin-bottom: 72px */
 }
-
+/* Adding styling for Map*/
+/* Always set the map height explicitly to define the size of the div
+element that contains the map. */
 #map {
- height: 100%;
- width: 100%;
- top : 0;
- left : 0; 
- position : absolute; 
- z-index : 200;
+  height: 100%;
+  width:60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  position: absolute;
 }
-/* leave this with a defined height so that the map will display */
+
 .map-row{
   height: 600px;
   padding: 1px;
@@ -908,12 +915,12 @@ body {
 /* Adding styling for Map*/
 /* Always set the map height explicitly to define the size of the div
 element that contains the map. */
-#map {
+/*#map {
   height: 60%;
   width:60%;
-  /*margin-left: 20%;*/
+  margin-left: 20%;
   /*margin-top: 10%;*/
-}
+/*}*/
 
 footer{
   position: absolute;
