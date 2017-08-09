@@ -428,21 +428,36 @@ a{
 }
 
 .mapFitness{
-/*  height: 500px;
+  height: 500px;
   margin-bottom: 173px;
   position: relative;
     left: 49px;
   width: 780px;
-  overflow: none ! important;*/
-    overflow: visible !important;
-    margin-left: 158px !important;
-    position: relative ;
-    top: 227px !important;
-    /*height: 100%;*/
+  
 }
 
 
 .map-fluid{
+  position: relative;
+  top: 0 !important;
+}
+
+.map-container{
+  height: 660px;
+  position: absolute;
+    top: -34px;
+  margin-bottom: 72px
+}
+
+#map {
+ height: 60%;
+ width:60%;
+ margin-left: 20%;
+ margin-top: 10%;
+ position: absolute;
+}
+
+/*.map-fluid{
   position: relative;
   top: 0 !important;
 }
@@ -457,19 +472,18 @@ a{
   height: 660px;
   position: relative;
   padding: 1px;
-  /* top: -34px; */
-  /* margin-bottom: 72px */
-}
+
+}*/
 /* Adding styling for Map*/
 /* Always set the map height explicitly to define the size of the div
 element that contains the map. */
-#map {
-  height: 100%;
+/*#map {
+  height: 60%;
   width:60%;
   margin-left: 20%;
   margin-top: 10%;
   position: absolute;
-}
+}*/
 
 .map-row{
   height: 600px;
@@ -509,11 +523,11 @@ element that contains the map. */
 }
 
 /* leave this with a defined height so that the map will display */
-.map-row{
+./*map-row{
   height: 600px;
   padding: 1px;
 } 
-
+*/
 .columnSize{
  /* padding-right:0 ! important;
     padding-left:0 ! important;
