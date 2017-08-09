@@ -297,7 +297,7 @@
 
 .top-space{
   position: relative !important;
-    top: -68px !important;
+    top: -60px !important;
 }
 
 .gyms-text{
@@ -336,8 +336,6 @@
 }
 
 .columnSize{
-
-
    width: 21% ! important;
   
     /*padding: 1px;*/
@@ -401,30 +399,6 @@
 }
 /*Fitness Page Bottom Half*/
 
-@media (min-width: 768px){
-    .fivecolumns .col-md-2 {
-        width: 20%;
-        *width: 20%;
-    }
-}
-@media (min-width: 1200px) {
-    .fivecolumns .col-md-2 {
-        width: 20%;
-        *width: 20%;
-    }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-    .fivecolumns .col-md-2 {
-        width: 20%;
-        *width: 20%;
-    }
-}
-
-.rec-textbox{
-  position: relative;
-  top: -22px;
-  margin-bottom: 76px !important;
-}
 /*.annimate{
   position: relative;
     animation-name: example;
@@ -451,6 +425,14 @@ a{
 
 .gym-rec:hover{
   color: gold;
+}
+
+.mapFitness{
+  height: 500px;
+  margin-bottom: 173px;
+  position: relative;
+    left: 49px;
+  width: 780px;
 }
 
 .map-fluid{
@@ -640,12 +622,20 @@ The good life,Interval training*/
     top: 235px;
 }
 
+.textbox{
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+  color: #fff !important;
+}
+
 /*Second Filler Jumbotron*/
 .second-filler-jumbotron{
   position: relative;
     top: -140px;
-  height: 220px;
-  background-image: url(../images/foodassortment.jpg);
+  height: 420px;
+  background-image: url(../images/proteinshake.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -662,6 +652,20 @@ The good life,Interval training*/
   background-attachment: fixed;
 }
 
+#search-filter{
+  height: 220px !important;
+}
+
+#search-widget{
+  position: relative;
+  top: 20px;
+  height: 1100px;
+}
+
+#search-fields{
+  position: relative;
+  left: 264px;
+}
 
 .events-box{
   background-color: rgba(0,0,0,0.4);

@@ -61,7 +61,7 @@ $(document).ready(function(){
     database.ref().on("value", function(snapshot) {
 
 
-      $("#userHeader").html(snapshot.val().username);
+      //$("#userHeader").html(snapshot.val().username);
 
       // Handle the errors
     }, function(errorObject) {

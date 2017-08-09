@@ -191,14 +191,6 @@
 						<h2>Keep it Social Without the Media</h2>
 						<p>Find events in your area and socialise with other people who have similar interests while improving your wellness.</p>
 					</aside>
-					<form class="form-inline search-gyms-box">
-						<div class="form-group address-box">
-							<label for="inputAddressEvents" style="margin-bottom: 20px; color: #6b6a67;">ENTER YOUR ADDRESS</label>
-							<br>
-							<input type="text" class="form-control" id="inputAddressEvents" placeholder="City, State, or Zip Code">
-						</div>
-						<button type="submit" class="btn btn-primary" id="searchGym"><i class="fa fa-search" aria-hidden="true" style="margin-right: 5px"></i>Find Events</button>
-					</form>
 				</div> <!--End First Col-->
 				<div class="col-md-5 events-image-col">
 					<div class="events-widget">
@@ -212,28 +204,24 @@
 		</div><!--End Container-->
 	</div><!--End Jumbotron-->
 
-	<section class="events-filler-section">
-		<div class="jumbotron events-filler">
-			<div class="container">
-				<p class="events-empty-containter">
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<div class="jumbotron space-jumbotron events-top-space">
+	<div class="jumbotron space-jumbotron top-space">
 		<div class="container">
-			<h2>LOCATIONS</h2>
 		</div>
 	</div>
 
-	<div class="container-fluid map-fluid">
-		<div class="row map-row">
-			<div class="col-md-12 map-container" id="eventMapContainer">
-			</div>
-		</div>
+<div class="container-fluid" style="background-color: #d6d8db; position: relative; top: -90px;">
+	<div class="container">
+		<link rel="stylesheet" href="http://widgets.active.com/widgets/search/stylesheets/search-widget-styles-a3.css" type="text/css" />
+		<script type="text/javascript" src="http://instantads.active.com/js/ads/instantAds2.js"></script>
+		<script type="text/javascript" src="http://widgets.active.com/widgets/search/jquery.js"></script>
+		<script type="text/javascript">$.noConflict();</script>
+		<script type="text/javascript" src="http://widgets.active.com/javascripts/jquery.ui.js"></script>
+		<script type="text/javascript" src="http://widgets.active.com/widgets/search/widget-a3.min.js"></script>
+		<script type="text/javascript">
+		  new ActiveNetwork.SearchWidget({"num":"5","activity":"any","type":"any","showTypeSelector":true,"location":"","width":"1110px","affiliate":"","placement":"","instantAdsEnabled":"true","linkTrustCampaign":"177561","instantAdsPage":"12658","instantAdsUnits":"244801|244803"}).render();
+		</script>
 	</div>
-	
+</div>
 <!--Footer-->
 	<footer>
 		<div>
