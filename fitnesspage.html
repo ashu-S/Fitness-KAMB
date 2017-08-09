@@ -24,9 +24,11 @@
  	<!--Firebase-->
  	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+ 	<!-- Link to Google places API-->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCEYkzEir7zBfdKJiCF0sVKJnc24BJxYs4&search?q=vegan+restaurants+in+houston&rlz=1C1CHBD_enUS748US748&oq=vegan+restaurants"></script>
 </head>
 
-<body>
+<body onload="onload()">
 <!--Navigation Bar-->
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
@@ -228,7 +230,7 @@
 				</div>
 
 				<div class="col-md-8">
-					<div class="mapFitness">
+					<div class="mapFitness" id="map">
 						
 					</div>
 				</div>
@@ -245,6 +247,8 @@
 	</footer>
 
 	<script src="assets/javascript/script.js"></script>
+	<!-- Scripts for Zomato and Google places  -->
+  	<script type="text/javascript" src="assets/javascript/fitness_centers.js"></script> 
 </body>
 
 </html>

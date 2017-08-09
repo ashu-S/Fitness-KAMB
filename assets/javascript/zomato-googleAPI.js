@@ -1,6 +1,11 @@
+
+
 var map;
 var infoWindow; // use later for pop up info windows on restaurants
 var markers=[];
+var restaurantName;
+var ratings;
+var thumb;
 
 // loading page populating the map
 function onload(param) {
@@ -29,8 +34,39 @@ function onload(param) {
     // Browser doesn't support Geolocation draw map using default location
     handleLocationError(false);
     mapRestaurants(DEFAULT_POS);
-  }
+    }
+      // Added a autocomplete search bar.
+    // Convert address from search bar to lat-long
+    
+    var searchBox = new google.maps.places.SearchBox(document.getElementById('inputAddress'));
 
+    google.maps.event.addListener(searchBox,'places_changed', function() {
+        // place change events on search box
+      places = searchBox.getPlaces();
+    });
+
+    document.getElementById('searchGym').onclick = function() {
+      searchBar()
+    };
+    
+
+    function searchBar(){
+      console.log("inside searchBar");
+     event.preventDefault();
+     var geocoder = new google.maps.Geocoder();
+     geocoder.geocode( { address:searchBox}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+          mypos.latitude = results[0].geometry.location.lat();
+          mypos.longitude = results[0].geometry.location.lng();
+          
+          } 
+      }); 
+      console.log(mypos);
+      mapRestaurants(mypos);
+    }
+  
+
+  // Get the restaurants with cuisine types: healthy food, juices, salads, and vegetarian (by Zomato cuisine code)
   function mapRestaurants(pos) {
     Zomato.init({
       key: "c8e2f5b03a41606edd2c1b651d82edec"
@@ -63,6 +99,7 @@ function initialize(pos, res) {
     zoom: 13
   });
 
+  infoWindow = new google.maps.InfoWindow();  
   placeMarkers(res);
 }
 
@@ -74,13 +111,23 @@ function placeMarkers(results) {
 }
 
 // FYI "place" is a Zomato object
+console.log("place")
+// console.log(place);
 function createMarker(place) {
   var placeLoc = place.restaurant.location;
+  var restaurantName = place.restaurant.name;
+  var ratings = place.restaurant.user_rating.aggregate_rating;
+  var thumb = place.restaurant.featured_image;
   var marker = new google.maps.Marker({
     map: map,
     // converting from Zomato format (string) to Google format (floating point)
     position: {lat: parseFloat(placeLoc.latitude), lng: parseFloat(placeLoc.longitude)}
   });
+
+   google.maps.event.addListener(marker, 'click', function(place){
+          infoWindow.setContent(restaurantName + " " + "Ratings: " + ratings + "");
+          infoWindow.open(map,this);
+    });
 
   // TODO - ability to click on new location to get pop up info (add in later)
 

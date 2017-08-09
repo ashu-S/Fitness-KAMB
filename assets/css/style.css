@@ -433,12 +433,14 @@ a{
   position: relative;
     left: 49px;
   width: 780px;
+  overflow: auto;
 }
 
 .map-fluid{
   position: relative;
   top: 0 !important;
 }
+
 
 .map-container-large{
   height: 660px;
@@ -448,6 +450,7 @@ a{
 .map-container{
   height: 660px;
   position: relative;
+  padding: 1px;
   /* top: -34px; */
   /* margin-bottom: 72px */
 }
@@ -460,6 +463,11 @@ a{
  position : absolute; 
  z-index : 200;
 }
+/* leave this with a defined height so that the map will display */
+.map-row{
+  height: 600px;
+  padding: 1px;
+} 
 
 /*Filler Jumbotron Fitness Page*/
 .fitness-filler{
