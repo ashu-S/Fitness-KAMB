@@ -450,14 +450,13 @@ a{
 }
 
 #map {
- height: 60%;
- width:60%;
- margin-left: 20%;
- margin-top: 10%;
+ height: 100%;
+ width:100%;
  position: absolute;
 }
 
-/*.map-fluid{
+
+.map-fluid{
   position: relative;
   top: 0 !important;
 }
@@ -473,7 +472,7 @@ a{
   position: relative;
   padding: 1px;
 
-}*/
+}
 /* Adding styling for Map*/
 /* Always set the map height explicitly to define the size of the div
 element that contains the map. */
@@ -485,10 +484,7 @@ element that contains the map. */
   position: absolute;
 }*/
 
-.map-row{
-  height: 600px;
-  padding: 1px;
-} 
+
 
 /*Filler Jumbotron Fitness Page*/
 .fitness-filler{
@@ -953,4 +949,68 @@ footer{
   font-family: Arial;
   line-height: 101px;
   margin-bottom: -20px;
+}
+/**/
+/*Ashwini - Added this for Event map styling -- Dont change*/
+/**/
+.map-row{
+  margin: 0px;
+  margin-bottom: 50px;
+  height: 700px;
+  padding: 1px;
+} 
+#form {
+  background-color: rgba(189, 195, 199, 0.7);
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+
+#form h1 {
+      font-size: 100%;
+      font-weight: 700; 
+      margin-bottom: 3px;    
+}
+
+.fieldset {
+  margin-bottom: 7px;
+}
+
+.fieldset label {
+      line-height: 100%;
+}
+
+.fieldset textarea {
+      min-width: 300px;
+      min-height: 100px;
+}
+
+.fieldset input,
+.fieldset select {
+      font-family: inherit;
+      width: 50%;
+}
+
+.fieldset .submit {
+      background-color: #2ecc71;
+      border: none;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      font-size: 80%;
+      margin: auto;
+      padding: 5px 8px;
+}
+
+.fieldset .submit:hover {
+      background-color: #27ae60;
+}
+#eventMapContainer{
+  /*padding: 10%;*/
+  height: 100%;
+  width: 100%;
+  /*margin-left: 5%;*/
 }

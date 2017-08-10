@@ -206,10 +206,12 @@
 
 	<div class="jumbotron space-jumbotron top-space">
 		<div class="container">
+		<h2>SHOWCASE YOUR EVENTS HERE</h2>
+		
 		</div>
 	</div>
 
-<div class="container-fluid" style="background-color: #d6d8db; position: relative; top: -90px;">
+<!-- <div class="container-fluid" style="background-color: #d6d8db; position: relative; top: -90px;">
 	<div class="container">
 		<link rel="stylesheet" href="http://widgets.active.com/widgets/search/stylesheets/search-widget-styles-a3.css" type="text/css" />
 		<script type="text/javascript" src="http://instantads.active.com/js/ads/instantAds2.js"></script>
@@ -221,7 +223,82 @@
 		  new ActiveNetwork.SearchWidget({"num":"5","activity":"any","type":"any","showTypeSelector":true,"location":"","width":"1110px","affiliate":"","placement":"","instantAdsEnabled":"true","linkTrustCampaign":"177561","instantAdsPage":"12658","instantAdsUnits":"244801|244803"}).render();
 		</script>
 	</div>
-</div>
+</div> -->
+
+<div class="container map-fluid">
+		<div class="row map-row">
+			<div class="col-md-12" id="eventMapContainer">
+				<div id="map"></div>
+				<form id="eventForm">
+			    <div id="form" class="gyms-text">
+			    	
+			    	<h1>Add Your Event Here:</h1>
+			    	
+			    	<div class="fieldset">
+				    	<label for="title">Title: </label><br>
+				    	<input type="text" class="title" name="title">
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<label for="event-type">Event Type: </label><br>
+				    	<select class="event-type" name="event-type">
+				    		<option value="meeting">Yoga Meetup</option>
+				    		<option value="action">Fun run</option>
+				    		<option value="appearance">Charity Walk</option>
+				    	</select>
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<label for="date">Date: </label><br>
+				    	<input type="date" class="date" name="date">
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<label for="time">Time: </label><br>
+				    	<input type="time" class="time" name="time">
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<label for="address">Address: </label><br>
+				    	<textarea type="text" class="address" name="address"></textarea>
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<label for="description">Description: </label><br>
+				    	<textarea type="text" class="description" name="description"></textarea>
+			    	</div>
+
+			    	<div class="fieldset">
+				    	<button class="submit">ADD EVENT</button>
+			    	</div>
+			    </div>
+				</form>
+   			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/vendor/underscore.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/vendor/backbone.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/events.js"></script>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEYkzEir7zBfdKJiCF0sVKJnc24BJxYs4&callback=app.init">
+    </script>
+
+    <script type="text/template" id="infowindow-template">
+
+    	<div class="info">
+    		<h4 class="title"><%= title %></h4>
+    		<h4 class="event-type"><%= eventType %></h4>
+    		<p><span class="time"><%= time %></span>, <span class="date"><%= date %></span></p>
+    		<p class="address"><%= address %></p>
+    		<p class="description"><%= description %></p>
+    	</div>
+
+    </script>
 <!--Footer-->
 	<footer>
 		<div>

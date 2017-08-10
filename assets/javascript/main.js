@@ -33,7 +33,7 @@ app.Models.Map = Backbone.Model.extend({
 
 			},
 
-			zoom : 10
+			zoom : 9
 
 		}
 
@@ -237,7 +237,7 @@ app.Views.Form = Backbone.View.extend({
 			description : this.$( '.description' ).val(),
 
 		};
-
+					
 		app.map.addPin( params );
 		seedEvents.push( params );
 		console.log(seedEvents);
