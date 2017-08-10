@@ -256,7 +256,7 @@
   padding: 30px;
   float: right;
   position: relative;
-    left: 13.5%;
+    left: 12%;
     top: 245px;
   border-radius: 10px;
 }
@@ -291,8 +291,8 @@
   font-family: 'Nixie One', sans-serif;
   color: #fff !important;
   text-align: center;
-  height: 140px !important;
-  padding: 32px !important;
+  height: 100px !important;
+  padding-top: 15px !important;
 }
 
 .top-space{
@@ -443,10 +443,11 @@ a{
 }
 
 .map-container{
-  height: 660px;
+  height: 650px;
+  width: 900px !important;
   position: absolute;
-    top: -34px;
-  margin-bottom: 72px
+    top: -14px;
+  margin-bottom: 130px
 }
 
 #map {
@@ -643,7 +644,7 @@ The good life,Interval training*/
   border-radius: 10px;
   float: left;
   position: relative;
-    left: -13.5%;
+    left: -12%;
     top: 235px;
 }
 
@@ -699,7 +700,7 @@ The good life,Interval training*/
   padding: 30px;
   float: right;
   position: relative;
-    left: 13.5%;
+    left: 12%;
     top: 245px;
   border-radius: 10px;
 }
