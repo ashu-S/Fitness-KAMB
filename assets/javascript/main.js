@@ -237,7 +237,7 @@ app.Views.Form = Backbone.View.extend({
 			description : this.$( '.description' ).val(),
 
 		};
-					
+		$("eventForm")[0].reset();			
 		app.map.addPin( params );
 		seedEvents.push( params );
 		console.log(seedEvents);
